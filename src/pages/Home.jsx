@@ -1,0 +1,67 @@
+import { Link } from 'react-router-dom';
+import { Shield, Settings } from 'lucide-react';
+
+const HydrantIconOutline = ({ size = 36, color = "#c0392b", strokeWidth = 1.5 }) => (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M8 8V4h8v4" />
+        <path d="M12 2v2" />
+        <rect x="8" y="8" width="8" height="14" rx="1" />
+        <path d="M4 11h4v4H4c-1.1 0-2-.9-2-2s.9-2 2-2z" />
+        <path d="M20 11h-4v4h4c1.1 0 2-.9 2-2s-.9-2-2-2z" />
+        <path d="M6 22h12" />
+    </svg>
+);
+
+function Home() {
+    return (
+        <div className="home-page">
+            <section className="hero-section">
+                <div className="hero-content">
+                    <h1 className="hero-title">ENGINEERING RELIABLE<br />FIRE PROTECTION.</h1>
+                    <p className="hero-subtitle">Innovative fire hydrants and water control systems,<br />built for durability and performance since 1988.</p>
+                    <Link to="/products" className="btn btn-primary btn-large">VIEW HYDRANTS</Link>
+                </div>
+                <div className="hero-image-wrapper">
+                    <img src="/images/hero.png" alt="Fire Hydrant" className="hero-image" />
+                </div>
+            </section>
+
+            <section className="features-section">
+                <div className="features-inner">
+                    <div className="feature-card">
+                        <div className="feature-icon-wrapper">
+                            <HydrantIconOutline />
+                        </div>
+                        <h3 className="feature-title">QUALITY PRODUCTS</h3>
+                        <p className="feature-desc">Durable, certified hydrants for urban & industrial areas.</p>
+                        <Link to="#" className="feature-link">Learn More</Link>
+                    </div>
+
+                    <div className="feature-divider"></div>
+
+                    <div className="feature-card">
+                        <div className="feature-icon-wrapper">
+                            <Shield size={36} color="#1f3a5f" strokeWidth={1.5} />
+                        </div>
+                        <h3 className="feature-title">RELIABLE SERVICE</h3>
+                        <p className="feature-desc">Installation, maintenance, and support for your safety needs.</p>
+                        <Link to="#" className="feature-link">Learn More</Link>
+                    </div>
+
+                    <div className="feature-divider"></div>
+
+                    <div className="feature-card">
+                        <div className="feature-icon-wrapper">
+                            <Settings size={36} color="#c0392b" strokeWidth={1.5} />
+                        </div>
+                        <h3 className="feature-title">ADVANCED SOLUTIONS</h3>
+                        <p className="feature-desc">Custom engineering and flow analysis for water distribution.</p>
+                        <Link to="#" className="feature-link">Learn More</Link>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+}
+
+export default Home;
