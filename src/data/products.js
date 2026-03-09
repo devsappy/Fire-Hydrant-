@@ -43,7 +43,7 @@ export const products = [
         name: "WATER MONITOR",
         shortDesc: "Red pipe, brass nozzle, handle operated",
         fullDesc: "Industrial-grade Water Monitors deliver a highly concentrated, long-distance water stream necessary for tackling large fires from a safe distance. Featuring 360-degree continuous rotation and extensive vertical elevation adjustments, it is perfect for industrial plants, refineries, and chemical depots.",
-        image: "/images/water_monitor.png",
+        image: "/images/watermonitor.png",
         category: "hydrant",
         techSpecs: { material: "Carbon Steel & Brass Nozzle", maxFlowRate: "1750 to 2580 L/min", certifications: "UL Listed / FM Approved", standardColor: "Fire Red", nozzleSizes: "63mm / 75mm / 100mm Flange" }
     },
@@ -75,6 +75,15 @@ export const products = [
         image: "/images/branch_pipe_nozzle.png",
         category: "accessory",
         techSpecs: { material: "Gunmetal / Stainless Steel", maxFlowRate: "Varies by Nozzle", certifications: "IS:903", standardColor: "Natural Polish", nozzleSizes: "12mm to 25mm bore" }
+    },
+    {
+        id: "bp-nozle-alt",
+        name: "BRANCH PIPE NOZLE",
+        shortDesc: "Alternative branch pipe nozzle",
+        fullDesc: "High-performance branch pipe nozzle designed for versatile firefighting stream application. Delivers excellent reach and precise flow control during critical emergency scenarios.",
+        image: "/images/Branch_Pipe_nozle.png",
+        category: "accessory",
+        techSpecs: { material: "Brass / Aluminum Alloy", maxFlowRate: "Adjustable", certifications: "CE / IS", standardColor: "Brass/Red", nozzleSizes: "Standard sizes available" }
     },
     {
         id: "hr-drum",
@@ -128,9 +137,18 @@ export const products = [
         name: "FIRE ALARM",
         shortDesc: "Red alarm unit with strobe light",
         fullDesc: "A dual-action electronic signaling device combining a loud audible siren with a high-intensity xenon strobe light. Critical for warning individuals with hearing impairments or in environments where ear protection is worn.",
-        image: "/images/fire_alarm.png",
+        image: "/images/Fire alarms.png",
         category: "alarm",
         techSpecs: { material: "Flame-retardant ABS", maxFlowRate: "N/A", certifications: "UL Listed", standardColor: "Red Chassis, Clear Strobe", nozzleSizes: "Multi-tone Audio, 75+ Candela" }
+    },
+    {
+        id: "sd-detector",
+        name: "SMOKE DETECTOR",
+        shortDesc: "Photoelectric smoke sensing technology",
+        fullDesc: "Advanced photoelectric smoke detector designed to sense smoldering fires rapidly. Highly reliable ceiling-mounted unit that integrates seamlessly with existing fire alarm control panels to provide crucial early warning in commercial and residential settings.",
+        image: "/images/Smoke_detector.jpg",
+        category: "alarm",
+        techSpecs: { material: "High Impact ABS Plastic", maxFlowRate: "N/A", certifications: "UL / CE", standardColor: "White", nozzleSizes: "Photoelectric Sensing Chamber" }
     },
 
     // --- EXTINGUISHERS (NEW) ---
