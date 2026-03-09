@@ -21,10 +21,6 @@ function ProductDetail() {
                     </div>
                     <div className="thumbnail-gallery">
                         <div className="thumbnail active"><img src={product.image} alt="thumb" /></div>
-                        <div className="thumbnail"><img src="/images/product_2.png" alt="thumb" /></div>
-                        <div className="thumbnail"><img src="/images/product_3.png" alt="thumb" /></div>
-                        <div className="thumbnail"><img src="/images/product_4.png" alt="thumb" /></div>
-                        <div className="thumbnail"><img src="/images/product_5.png" alt="thumb" /></div>
                     </div>
                 </div>
 

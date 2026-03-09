@@ -1,4 +1,4 @@
-import { Wrench, Shield, Droplets, Map, CheckCircle2 } from 'lucide-react';
+import { Wrench, Shield, Droplets, Map, CheckCircle2, Bell } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 function Services() {
@@ -9,9 +9,19 @@ function Services() {
             description: "Our certified technicians provide full-service installation and ongoing maintenance for all types of municipal and private fire hydrants. We ensure your equipment is always ready when needed most, complying with all local and national fire safety codes."
         },
         {
-            icon: <Droplets size={32} color="#1f3a5f" />,
-            title: "Flow Testing & Analysis",
-            description: "Comprehensive water flow testing to determine the pressure and rate of flow available at various locations within your distribution system. Our detailed reports help you understand your system's capabilities for fire-fighting purposes."
+            icon: <Wrench size={32} color="#1f3a5f" />,
+            title: "Fire Extinguisher Setup",
+            description: "Expert installation and positioning of fire extinguishers tailored to your premises' specific hazards. We ensure compliance with safety standards and optimal accessibility during emergencies."
+        },
+        {
+            icon: <Shield size={32} color="#c0392b" />,
+            title: "AR CO2 Extinguisher Setup",
+            description: "Specialized setup of Carbon Dioxide (CO2) suppression systems for critical electrical and high-value equipment zones, ensuring clean, residue-free extinguishing capabilities."
+        },
+        {
+            icon: <Bell size={32} color="#1f3a5f" />,
+            title: "Fire Alarm System",
+            description: "Comprehensive installation and integration of advanced fire alarm systems, including control panels, smoke detectors, and manual call points for early detection and rapid response."
         },
         {
             icon: <Shield size={32} color="#c0392b" />,

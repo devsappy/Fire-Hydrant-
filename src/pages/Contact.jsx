@@ -16,7 +16,7 @@ function Contact() {
                     <div className="contact-method">
                         <div className="contact-icon"><MapPin color="#c0392b" /></div>
                         <div>
-                            <strong>Headquarters</strong>
+                            <strong>Office</strong>
                             <p>Simurali, Nadia</p>
                         </div>
                     </div>
