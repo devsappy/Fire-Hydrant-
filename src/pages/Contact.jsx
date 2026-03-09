@@ -41,7 +41,7 @@ function Contact() {
                         <div className="contact-icon"><Clock color="#c0392b" /></div>
                         <div>
                             <strong>Business Hours</strong>
-                            <p>Monday - Friday: 8:00 AM - 5:00 PM EST<br />Emergency Support: 24/7</p>
+                            <p>8 AM to 9PM (Monday to Saturday)<br />Emergency Support: 24/7<br />All Over West Bengal services are provided.</p>
                         </div>
                     </div>
                 </div>

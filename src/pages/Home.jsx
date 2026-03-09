@@ -23,7 +23,7 @@ function Home() {
             }}>
                 <div className="hero-content">
                     <h1 className="hero-title" style={{ color: 'white' }}>ENGINEERING RELIABLE<br />FIRE PROTECTION.</h1>
-                    <p className="hero-subtitle" style={{ color: '#eee' }}>Innovative fire hydrants and water control systems,<br />built for durability and performance since 1988.</p>
+                    <p className="hero-subtitle" style={{ color: '#eee' }}>Innovative fire hydrants and water control systems,<br />built for durability and performance since 2023.<br /><br /><strong>All Over West Bengal services are provided.</strong></p>
                     <Link to="/products" className="btn btn-primary btn-large">VIEW PRODUCTS</Link>
                 </div>
             </section>
@@ -35,7 +35,7 @@ function Home() {
                             <HydrantIconOutline />
                         </div>
                         <h3 className="feature-title">QUALITY PRODUCTS</h3>
-                        <p className="feature-desc">Durable, certified hydrants for urban & industrial areas.</p>
+                        <p className="feature-desc">Durable, Fire Safety equipment for urban & industrial areas.</p>
                         <Link to="/products" className="feature-link">Learn More</Link>
                     </div>
 
