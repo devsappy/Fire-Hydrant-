@@ -17,7 +17,7 @@ function Contact() {
                         <div className="contact-icon"><MapPin color="#c0392b" /></div>
                         <div>
                             <strong>Headquarters</strong>
-                            <p>123 Hydrant Way<br />Fire City, FC 54321</p>
+                            <p>Simurali, Nadia</p>
                         </div>
                     </div>
 
@@ -25,7 +25,7 @@ function Contact() {
                         <div className="contact-icon"><Phone color="#c0392b" /></div>
                         <div>
                             <strong>Phone</strong>
-                            <p>Main: (555) 123-4567<br />Support: (555) 987-6543</p>
+                            <p>+91 9239689075</p>
                         </div>
                     </div>
 
@@ -46,39 +46,6 @@ function Contact() {
                     </div>
                 </div>
 
-                <div className="contact-form-panel">
-                    <h3>Send us a Message</h3>
-                    <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
-                        <div className="form-row">
-                            <div className="form-group">
-                                <label>First Name</label>
-                                <input type="text" placeholder="John" />
-                            </div>
-                            <div className="form-group">
-                                <label>Last Name</label>
-                                <input type="text" placeholder="Doe" />
-                            </div>
-                        </div>
-                        <div className="form-group">
-                            <label>Email Address</label>
-                            <input type="email" placeholder="john@example.com" />
-                        </div>
-                        <div className="form-group">
-                            <label>Subject</label>
-                            <select>
-                                <option>Request a Quote</option>
-                                <option>Product Information</option>
-                                <option>Service & Maintenance</option>
-                                <option>Other</option>
-                            </select>
-                        </div>
-                        <div className="form-group">
-                            <label>Message</label>
-                            <textarea rows="5" placeholder="How can we help you today?"></textarea>
-                        </div>
-                        <button type="submit" className="btn btn-primary btn-full btn-large">SEND MESSAGE</button>
-                    </form>
-                </div>
             </div>
         </div>
     );

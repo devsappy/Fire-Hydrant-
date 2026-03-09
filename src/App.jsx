@@ -1,13 +1,14 @@
+import { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Catalog from './pages/Catalog';
-import ProductDetail from './pages/ProductDetail';
-import Services from './pages/Services';
-import Projects from './pages/Projects';
-import About from './pages/About';
-import Contact from './pages/Contact';
+
+const Home = lazy(() => import('./pages/Home'));
+const Catalog = lazy(() => import('./pages/Catalog'));
+const ProductDetail = lazy(() => import('./pages/ProductDetail'));
+const Services = lazy(() => import('./pages/Services'));
+const Projects = lazy(() => import('./pages/Projects'));
+const About = lazy(() => import('./pages/About'));
+const Contact = lazy(() => import('./pages/Contact'));
 
 function App() {
   return (
@@ -15,17 +16,19 @@ function App() {
       <div className="app-container">
         <Header />
         <main className="main-content-area">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/products" element={<Catalog />} />
-            <Route path="/products/:id" element={<ProductDetail />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+          <Suspense fallback={<div style={{ padding: '50px', textAlign: 'center' }}>Loading...</div>}>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/products" element={<Catalog />} />
+              <Route path="/products/:id" element={<ProductDetail />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/projects" element={<Projects />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+          </Suspense>
         </main>
-        <Footer />
+
       </div>
     </BrowserRouter>
   );

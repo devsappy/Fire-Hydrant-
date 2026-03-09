@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { products } from '../data/products';
-import { Share2, Printer, ChevronLeft } from 'lucide-react';
+import { ChevronLeft } from 'lucide-react';
 
 function ProductDetail() {
     const { id } = useParams();
@@ -61,17 +61,9 @@ function ProductDetail() {
                         </table>
                     </div>
 
-                    <button className="btn btn-primary btn-large btn-full btn-quote">REQUEST A QUOTE</button>
+                    <Link to="/contact" className="btn btn-primary btn-large btn-full btn-quote" style={{ display: 'block', textAlign: 'center' }}>REQUEST A QUOTE</Link>
 
-                    <div className="product-actions">
-                        <label className="checkbox-label">
-                            <input type="checkbox" /> Add to Inquiry
-                        </label>
-                        <div className="action-icons">
-                            <Share2 size={20} className="action-icon" />
-                            <Printer size={20} className="action-icon" />
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>

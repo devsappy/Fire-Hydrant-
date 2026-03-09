@@ -1,4 +1,5 @@
 import { Wrench, Shield, Droplets, Map, CheckCircle2 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 function Services() {
     const servicesList = [
@@ -41,7 +42,7 @@ function Services() {
                             <div className="service-content">
                                 <h3 className="service-title">{service.title}</h3>
                                 <p className="service-desc">{service.description}</p>
-                                <button className="btn btn-outline">LEARN MORE</button>
+                                <Link to="/contact" className="btn btn-outline" style={{ display: 'inline-block', textAlign: 'center' }}>LEARN MORE</Link>
                             </div>
                         </div>
                     ))}
@@ -51,13 +52,13 @@ function Services() {
                     <div className="sidebar-card highlight-card">
                         <h3>Why Choose PM Enterprise?</h3>
                         <ul className="benefits-list">
-                            <li><CheckCircle2 size={16} /> Over 35 years of industry experience</li>
-                            <li><CheckCircle2 size={16} /> 24/7 Emergency support available</li>
-                            <li><CheckCircle2 size={16} /> Certified and bonded technicians</li>
-                            <li><CheckCircle2 size={16} /> Transparent pricing and detailed reporting</li>
-                            <li><CheckCircle2 size={16} /> State-of-the-art diagnostic equipment</li>
+                            <li><CheckCircle2 size={16} /> Founded with a future look to the market</li>
+                            <li><CheckCircle2 size={16} /> Best quality assurance guarantee</li>
+                            <li><CheckCircle2 size={16} /> Long distance project handling</li>
+                            <li><CheckCircle2 size={16} /> Top of the line fitting instructions</li>
+                            <li><CheckCircle2 size={16} /> Best technical workmanships</li>
                         </ul>
-                        <button className="btn btn-primary btn-full mt-20">REQUEST SERVICE</button>
+                        <Link to="/contact" className="btn btn-primary btn-full mt-20" style={{ display: 'inline-block', textAlign: 'center' }}>REQUEST SERVICE</Link>
                     </div>
                 </div>
             </div>

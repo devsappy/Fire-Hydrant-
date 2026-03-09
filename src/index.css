@@ -43,6 +43,9 @@ ul {
   border-bottom: 1px solid #e0e0e0;
   background: #fff;
   padding: 0 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .header-inner {
@@ -140,7 +143,7 @@ ul {
 /* ================= HOME PAGE ================= */
 .hero-section {
   display: flex;
-  height: 500px;
+  min-height: calc(100vh - 81px);
   background-color: #f7f9fa;
   border-bottom: 1px solid #e0e0e0;
 }
@@ -749,7 +752,7 @@ ul {
 
 /* ================= ABOUT PAGE ================= */
 .about-hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1504307651254-35680f356f12?auto=format&fit=crop&q=80&w=1200');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/aboutusbackground.png');
   background-size: cover;
   background-position: center;
   border-radius: 12px;
@@ -820,10 +823,14 @@ ul {
 
 /* ================= CONTACT PAGE ================= */
 .contact-layout {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-  gap: 40px;
+  display: flex;
+  justify-content: center;
   margin-top: 40px;
+}
+
+.contact-info-panel {
+  max-width: 500px;
+  width: 100%;
 }
 
 .contact-info-panel,
@@ -907,4 +914,222 @@ ul {
 .form-group select:focus,
 .form-group textarea:focus {
   border-color: #c0392b;
+}
+
+/* ================= FIRE SAFETY SECTION STYLES ================= */
+.fs-title {
+  font-size: 56px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  letter-spacing: -1px;
+}
+
+.fs-title-white {
+  color: #ffffff;
+}
+
+.fs-desc-1 {
+  font-size: 22px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.fs-desc-3 {
+  font-size: 22px;
+  color: #e0e0e0;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.fs-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================= RESPONSIVE DESIGN ================= */
+
+/* TABLET (Max Width: 1024px) */
+@media (max-width: 1024px) {
+  .mobile-menu-btn {
+    display: flex !important;
+    z-index: 100;
+  }
+
+  .main-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-120%);
+    opacity: 0;
+    visibility: hidden;
+    transition: transform 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+    z-index: 99;
+  }
+
+  .main-nav.open {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+    padding: 20px 0;
+  }
+
+  .main-nav .nav-link {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .nav-divider {
+    display: none;
+  }
+
+  .hero-content {
+    padding: 60px 5%;
+  }
+
+  .product-grid,
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-grid-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .about-content-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .fs-title {
+    font-size: 44px;
+  }
+}
+
+/* MOBILE (Max Width: 768px) */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 30px 15px;
+  }
+
+  .site-header {
+    padding: 0 15px;
+  }
+
+  /* Hero */
+  .hero-title {
+    font-size: 36px !important;
+  }
+
+  .hero-subtitle {
+    font-size: 16px !important;
+  }
+
+  /* Features */
+  .features-inner {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .feature-divider {
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+  }
+
+  /* Grids */
+  .product-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .product-detail-layout {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  /* Form */
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  /* Typography */
+  .page-title {
+    font-size: 28px;
+  }
+
+  .detail-title {
+    font-size: 26px;
+  }
+
+  /* Fire Safety Section */
+  .fs-title {
+    font-size: 32px;
+  }
+
+  .fs-desc-1,
+  .fs-desc-3 {
+    font-size: 18px;
+  }
+
+  .fs-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  /* About Page */
+  .about-hero {
+    height: 200px;
+  }
+}
+
+/* SMALL MOBILE (Max Width: 480px) */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 28px !important;
+  }
+
+  .about-stats-section {
+    grid-template-columns: 1fr;
+  }
+
+  .thumbnail-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .fs-title {
+    font-size: 26px;
+  }
+
+  .fs-icon {
+    width: 48px;
+    height: 48px;
+  }
 }

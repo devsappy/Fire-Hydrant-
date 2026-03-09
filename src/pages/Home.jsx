@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Shield, Settings } from 'lucide-react';
+import FireSafetySection from '../components/FireSafetySection';
 
 const HydrantIconOutline = ({ size = 36, color = "#c0392b", strokeWidth = 1.5 }) => (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round">
@@ -15,14 +16,15 @@ const HydrantIconOutline = ({ size = 36, color = "#c0392b", strokeWidth = 1.5 })
 function Home() {
     return (
         <div className="home-page">
-            <section className="hero-section">
+            <section className="hero-section" style={{
+                backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/backgroundimage.png")',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+            }}>
                 <div className="hero-content">
-                    <h1 className="hero-title">ENGINEERING RELIABLE<br />FIRE PROTECTION.</h1>
-                    <p className="hero-subtitle">Innovative fire hydrants and water control systems,<br />built for durability and performance since 1988.</p>
+                    <h1 className="hero-title" style={{ color: 'white' }}>ENGINEERING RELIABLE<br />FIRE PROTECTION.</h1>
+                    <p className="hero-subtitle" style={{ color: '#eee' }}>Innovative fire hydrants and water control systems,<br />built for durability and performance since 1988.</p>
                     <Link to="/products" className="btn btn-primary btn-large">VIEW HYDRANTS</Link>
-                </div>
-                <div className="hero-image-wrapper">
-                    <img src="/images/hero.png" alt="Fire Hydrant" className="hero-image" />
                 </div>
             </section>
 
@@ -34,7 +36,7 @@ function Home() {
                         </div>
                         <h3 className="feature-title">QUALITY PRODUCTS</h3>
                         <p className="feature-desc">Durable, certified hydrants for urban & industrial areas.</p>
-                        <Link to="#" className="feature-link">Learn More</Link>
+                        <Link to="/products" className="feature-link">Learn More</Link>
                     </div>
 
                     <div className="feature-divider"></div>
@@ -45,7 +47,7 @@ function Home() {
                         </div>
                         <h3 className="feature-title">RELIABLE SERVICE</h3>
                         <p className="feature-desc">Installation, maintenance, and support for your safety needs.</p>
-                        <Link to="#" className="feature-link">Learn More</Link>
+                        <Link to="/services" className="feature-link">Learn More</Link>
                     </div>
 
                     <div className="feature-divider"></div>
@@ -56,10 +58,12 @@ function Home() {
                         </div>
                         <h3 className="feature-title">ADVANCED SOLUTIONS</h3>
                         <p className="feature-desc">Custom engineering and flow analysis for water distribution.</p>
-                        <Link to="#" className="feature-link">Learn More</Link>
+                        <Link to="/services" className="feature-link">Learn More</Link>
                     </div>
                 </div>
             </section>
+
+            <FireSafetySection />
         </div>
     );
 }
