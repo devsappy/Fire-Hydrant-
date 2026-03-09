@@ -12,7 +12,7 @@ function Header() {
         <header className="site-header">
             <div className="header-inner">
                 <div className="logo-container">
-                    <img src="/images/pmenterpriseslogo.png" alt="PM Enterprise Logo" className="logo-icon" style={{ height: '65px', width: 'auto', objectFit: 'contain' }} />
+                    <img src="/images/pmenterpriseslogo.png" alt="PM Enterprises Logo" className="logo-icon" style={{ height: '65px', width: 'auto', objectFit: 'contain' }} />
                     <Link to="/" style={{ display: 'flex', flexDirection: 'column', textDecoration: 'none' }} onClick={closeMenu}>
                         <div className="logo-text" style={{ display: 'flex', alignItems: 'baseline', lineHeight: '1' }}>
                             <span className="logo-p">PM</span>

@@ -11,7 +11,7 @@ function About() {
             <div className="about-content-grid">
                 <div className="about-text-section">
                     <h2>Our Vision & Mission</h2>
-                    <p>Founded in 2023, PM Enterprise is a fire safety installation company for small scale to high scale buildings. We are dedicated to providing you with the best quality assurance, reliable after sale service, and innovative ways to comply with all types of fire safety rules and regulations.</p>
+                    <p>Founded in 2023, PM Enterprises is a fire safety installation company for small scale to high scale buildings. We are dedicated to providing you with the best quality assurance, reliable after sale service, and innovative ways to comply with all types of fire safety rules and regulations.</p>
                     <p>Our company was founded with a future look to the market—ensuring customers get their hands on the best fire safety equipments to deal with any mishaps. Based in Simurali, Nadia, we work on long distance projects handling and maintain proper equipments and fitting flows to the desired location, providing top of the line fitting instructions.</p>
                     <h2 className="mt-40">Our Workmanship</h2>
                     <p>We provide the best technical workmanships in the market so that when you pay the price, you get the exact product that you expect. Our goal is not just to sell equipment, but to build a lasting trust with you through our dependable after sale services.</p>

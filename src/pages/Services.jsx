@@ -65,7 +65,7 @@ function Services() {
 
                 <div className="services-sidebar">
                     <div className="sidebar-card highlight-card">
-                        <h3>Why Choose PM Enterprise?</h3>
+                        <h3>Why Choose PM Enterprises?</h3>
                         <ul className="benefits-list">
                             <li><CheckCircle2 size={16} /> Founded with a future look to the market</li>
                             <li><CheckCircle2 size={16} /> Best quality assurance guarantee</li>
