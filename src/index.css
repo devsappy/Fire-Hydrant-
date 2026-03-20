@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -753,7 +757,7 @@ ul {
 
 /* ================= ABOUT PAGE ================= */
 .about-hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/aboutusbackground.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/images/ui/aboutusbackground.png');
   background-size: cover;
   background-position: center;
   border-radius: 12px;
@@ -1134,3 +1138,50 @@ ul {
     height: 48px;
   }
 }
+
+/* ================= DARK MODE OVERRIDES ================= */
+.dark-theme {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+.dark-theme .app-container { background-color: #121212; }
+.dark-theme .site-header, .dark-theme .site-footer, .dark-theme .features-section,
+.dark-theme .service-detail-card, .dark-theme .project-showcase-card,
+.dark-theme .product-card, .dark-theme .blog-card {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+  color: #e0e0e0 !important;
+}
+.dark-theme .hero-section { background-color: #121212 !important; border-bottom-color: #333 !important; }
+.dark-theme .feature-divider, .dark-theme .catalog-header, .dark-theme .product-image-container,
+.dark-theme .main-image-wrapper, .dark-theme .action-icons { border-color: #333 !important; }
+.dark-theme .product-image-container, .dark-theme .main-image-wrapper, .dark-theme .service-icon-large,
+.dark-theme .sidebar-card { background-color: #252525 !important; }
+.dark-theme .hero-title, .dark-theme .feature-title, .dark-theme .catalog-title, .dark-theme .product-name,
+.dark-theme .detail-title, .dark-theme .specs-title, .dark-theme .page-title, .dark-theme .service-title,
+.dark-theme .project-name, .dark-theme .about-text-section h2, .dark-theme .highlight-card h3 { color: #ffffff !important; }
+.dark-theme .logo-text, .dark-theme .logo-p, .dark-theme .logo-enterprise { color: #f8f9fa !important; }
+.dark-theme .hero-subtitle, .dark-theme .feature-desc, .dark-theme .product-short-desc, .dark-theme .detail-subtitle,
+.dark-theme .service-desc, .dark-theme .project-desc, .dark-theme .about-text-section p, .dark-theme .catalog-filters label,
+.dark-theme .spec-value, .dark-theme .checkbox-label { color: #ccc !important; }
+.dark-theme .btn-outline { color: #ff5252 !important; border-color: #ff5252 !important; }
+.dark-theme .btn-outline:hover { background: #ff5252 !important; color: #121212 !important; }
+.dark-theme .btn-text, .dark-theme .back-link, .dark-theme .feature-link { color: #ff5252 !important; }
+.dark-theme .specs-table tr:nth-child(even) { background-color: #1a1a1a !important; }
+.dark-theme .specs-table td { border-bottom-color: #333 !important; color: #ccc !important; }
+.dark-theme .specs-table td:first-child { color: #e0e0e0 !important; }
+.dark-theme .filter-select { background: #252525 !important; color: #e0e0e0 !important; border-color: #444 !important; }
+.dark-theme .blog-page .blog-card > div:nth-child(2) { background-color: #1e1e1e !important; }
+.dark-theme .blog-page .blog-card h2 a { color: #fff !important; }
+.dark-theme .blog-page .blog-card p { color: #ccc !important; }
+.dark-theme .blog-detail-page h1 { color: #fff !important; }
+.dark-theme .blog-detail-page section { color: #ccc !important; }
+.dark-theme .blog-detail-page h3, .dark-theme .blog-detail-page h2 { color: #fff !important; border-color: #333 !important; }
+.dark-theme .blog-detail-page section[style*='background-color'] { background-color: #1e1e1e !important; }
+
+
+/* GLOBAL THEME TRANSITIONS */
+body, .app-container, .site-header, .site-footer, .feature-card, .product-card, .blog-card, .service-detail-card, .project-showcase-card, .sidebar-card, .hero-section, .catalog-header, section {
+  transition: background-color 0.3s ease-in-out, fill 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out !important;
+}
+

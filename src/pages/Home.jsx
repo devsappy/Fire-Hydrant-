@@ -17,11 +17,11 @@ function Home() {
     return (
         <div className="home-page">
             <section className="hero-section" style={{
-                backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/backgroundimage.png")',
+                backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/ui/backgroundimage.png")',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center'
             }}>
-                <div className="hero-content">
+                <div className="hero-content" data-aos="fade-up">
                     <h1 className="hero-title" style={{ color: 'white' }}>ENGINEERING RELIABLE<br />FIRE PROTECTION.</h1>
                     <p className="hero-subtitle" style={{ color: '#eee' }}>Innovative fire hydrants and water control systems,<br />built for durability and performance since 2023.<br /><br /><strong>All Over West Bengal services are provided.</strong></p>
                     <Link to="/products" className="btn btn-primary btn-large">VIEW PRODUCTS</Link>
@@ -30,7 +30,7 @@ function Home() {
 
             <section className="features-section">
                 <div className="features-inner">
-                    <div className="feature-card">
+                    <div className="feature-card" data-aos="fade-up" data-aos-delay="100">
                         <div className="feature-icon-wrapper">
                             <HydrantIconOutline />
                         </div>
@@ -41,7 +41,7 @@ function Home() {
 
                     <div className="feature-divider"></div>
 
-                    <div className="feature-card">
+                    <div className="feature-card" data-aos="fade-up" data-aos-delay="200">
                         <div className="feature-icon-wrapper">
                             <Shield size={36} color="#1f3a5f" strokeWidth={1.5} />
                         </div>
@@ -52,7 +52,7 @@ function Home() {
 
                     <div className="feature-divider"></div>
 
-                    <div className="feature-card">
+                    <div className="feature-card" data-aos="fade-up" data-aos-delay="300">
                         <div className="feature-icon-wrapper">
                             <Settings size={36} color="#c0392b" strokeWidth={1.5} />
                         </div>
