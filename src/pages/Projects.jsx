@@ -1,28 +1,68 @@
-import { Clock } from 'lucide-react';
+import { MapPin, Building2, Map, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
+
 
 function Projects() {
     return (
-        <div className="page-container projects-page" style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            justifyContent: 'center',
-            minHeight: '60vh',
-            textAlign: 'center'
-        }}>
-            <style>{`
-                .animated-clock polyline {
-                    transform-origin: 12px 12px;
-                    animation: spinHands 5s linear infinite;
-                }
-                @keyframes spinHands {
-                    0% { transform: rotate(0deg); }
-                    100% { transform: rotate(360deg); }
-                }
-            `}</style>
-            <Clock size={64} color="#c0392b" className="animated-clock" style={{ marginBottom: '20px' }} />
-            <h1 className="page-title" style={{ fontSize: '3rem', marginBottom: '15px' }}>On Work Load</h1>
-            <p className="page-subtitle" style={{ fontSize: '1.5rem', color: '#555' }}>Updating Soon...</p>
+        <div className="page-container projects-page">
+            <div className="page-header text-center" data-aos="fade-up">
+                <h1 className="page-title">Our Projects</h1>
+                <p className="page-subtitle">Showcasing our completed fire safety installations.</p>
+            </div>
+
+            <div className="projects-grid">
+                {/* Anglo India Jute Mill Project */}
+                <div className="project-showcase-card" data-aos="fade-up" data-aos-delay="100">
+                    <div className="project-image-wrapper">
+                        <img 
+                            src="/images/projects/proj1_img1.jpeg" 
+                            alt="Anglo India Jute Mill Fire Safety Installation" 
+                            className="project-image"
+                        />
+                        <div className="project-year-badge">Recent</div>
+                    </div>
+                    <div className="project-content">
+                        <div className="project-tags">
+                            <span className="tag">Jute Mill</span>
+                            <span className="tag">Fire Hydrant</span>
+                            <span className="tag">Industrial</span>
+                        </div>
+                        <div className="project-client">
+                            <Building2 size={14} style={{ display: 'inline', marginRight: '4px', verticalAlign: '-2px' }} />
+                            Anglo India Jute Mill
+                        </div>
+                        <h3 className="project-name">Fire Hydrant System Installation</h3>
+                        <p className="project-desc">
+                            Comprehensive fire hydrant system installation for Anglo India Jute Mill, focusing on securing the industrial infrastructure and ensuring compliance with heavy industry safety standards.
+                        </p>
+                        
+                        <div style={{ marginTop: 'auto', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                            <div style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', fontSize: '13px', color: '#555' }}>
+                                <MapPin size={16} color="#c0392b" style={{ flexShrink: 0, marginTop: '2px' }} />
+                                <span>Jagatdal, Bhatpara, Kolkata, West Bengal 743125</span>
+                            </div>
+                            <div style={{ display: 'flex', gap: '10px', marginTop: '10px' }}>
+                                <Link 
+                                    to={`/projects/anglo-india-jute-mill`}
+                                    className="btn btn-primary"
+                                    style={{ flex: 1, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '8px 15px', fontSize: '14px' }}
+                                >
+                                    Detailed Overview <ArrowRight size={16} />
+                                </Link>
+                                <a 
+                                    href="https://maps.app.goo.gl/1TAkSXMWAJsBJuY29?g_st=aw" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    className="btn btn-outline"
+                                    style={{ flex: 1, display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', padding: '8px 15px', fontSize: '14px' }}
+                                >
+                                    <Map size={16} /> Map
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
