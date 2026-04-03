@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Core Pages -->
     <url>
         <loc>https://www.pmenterprises.xyz/</loc>
         <changefreq>weekly</changefreq>
@@ -11,7 +12,7 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://www.pmenterprises.xyz/catalog</loc>
+        <loc>https://www.pmenterprises.xyz/products</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
@@ -30,4 +31,69 @@
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
+    <url>
+        <loc>https://www.pmenterprises.xyz/blog</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Blog Posts -->
+    <url>
+        <loc>https://www.pmenterprises.xyz/blog/essential-fire-extinguisher-types</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.pmenterprises.xyz/blog/new-safety-regulations-2026</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.pmenterprises.xyz/blog/warehouse-sprinkler-system-upgrade</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Specific Projects -->
+    <url>
+        <loc>https://www.pmenterprises.xyz/projects/anglo-india-jute-mill</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <!-- Product Details -->
+    <url><loc>https://www.pmenterprises.xyz/products/lv-single</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/lv-double</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/so-nozzle</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/ch-four</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/wm-standard</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/hc-delivery</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/hb-standard</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/bp-nozzle</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/bp-nozle-alt</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/hr-drum</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/sp-standard</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/mcp-standard</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/fap-standard</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/ms-hooter</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/fa-strobe</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/sd-detector</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/fire-kit-1kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/auto-modular</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/portable-400ml</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/abc-1kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/abc-2kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/afff-9l</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/dcp-5kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/dcp-10kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/co2-4-5kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/co2-6-5kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/co2-9kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/co2-22-5kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/afff-9l-sp</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/water-co2-9l-sp</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/water-co2-9l</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/afff-50l</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/dcp-25kg</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+    <url><loc>https://www.pmenterprises.xyz/products/water-co2-50l</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
