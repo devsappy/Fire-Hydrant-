@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pmenterprises.in/sitemap.xml
+Sitemap: http://pmenterprises.xyz/sitemap.xml
