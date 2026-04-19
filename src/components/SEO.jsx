@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 export default function SEO({ title, description, keywords, type = 'website', name, image, url }) {
   const siteName = "PM Enterprises";
   const defaultImage = "/images/ui/pmenterpriseslogo.png";
-  const baseUrl = "https://pmenterprises.in"; // Replace with your actual domain or leave relative if unavailable, but absolute is better for SEO
+  const baseUrl = "http://pmenterprises.in"; // Changed to http as https is not configured
   
   return (
     <Helmet>
