@@ -1,8 +1,15 @@
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import SEO from '../components/SEO';
 
 function Contact() {
     return (
         <div className="page-container contact-page">
+            <SEO 
+                title="Contact Us" 
+                description="Get in touch with PM Enterprises for fire protection installation, equipment supply, and maintenance. We provide services across all over West Bengal."
+                keywords="contact PM Enterprises, fire safety company phone number, fire protection services West Bengal, emergency support" 
+                url="/contact"
+            />
             <div className="page-header text-center">
                 <h1 className="page-title">CONTACT US</h1>
                 <p className="page-subtitle">We're here to help with your fire protection and water infrastructure needs.</p>

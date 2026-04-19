@@ -1,6 +1,14 @@
+import SEO from '../components/SEO';
+
 function About() {
     return (
         <div className="page-container about-page">
+            <SEO 
+                title="About Us" 
+                description="Learn about PM Enterprises, founded in 2023. We provide reliable fire safety installations and top-tier workmanship across West Bengal."
+                keywords="about PM Enterprises, fire safety company West Bengal, Simurali Nadia, quality fire safety installations" 
+                url="/about"
+            />
             <div className="about-hero">
                 <div className="about-hero-content">
                     <h1 className="page-title">ABOUT PM ENTERPRISES</h1>

@@ -1,9 +1,16 @@
 import { BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 function Blog() {
     return (
         <div className="page-container blog-page" style={{ padding: '40px 20px', maxWidth: '1200px', margin: '0 auto' }}>
+            <SEO 
+                title="Fire Safety Blog & Resources" 
+                description="Read the latest insights, tips, and news about fire safety equipment, regulations, and industry trends from PM Enterprises."
+                keywords="fire safety blog, fire extinguisher guide, safety regulations India, PM Enterprises news" 
+                url="/blog"
+            />
             <div style={{ textAlign: 'center', marginBottom: '40px' }}>
                 <BookOpen size={48} color="#c0392b" style={{ marginBottom: '15px' }} />
                 <h1 className="page-title" style={{ fontSize: '2.5rem', marginBottom: '10px' }}>Our Blog</h1>

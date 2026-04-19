@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { products } from '../data/products';
+import SEO from '../components/SEO';
 
 function Catalog() {
     const [filter, setFilter] = useState('all');
@@ -14,6 +15,12 @@ function Catalog() {
 
     return (
         <div className="catalog-page page-container">
+            <SEO 
+                title="Fire Safety Equipment Catalog" 
+                description="Browse our comprehensive catalog of fire safety equipment, including fire hydrants, extinguishers, valves, alarms, and protective gear."
+                keywords="fire safety catalog, fire extinguishers buy online, fire hydrant valves, PM Enterprises products" 
+                url="/products"
+            />
             <div className="catalog-header">
                 <h1 className="catalog-title">OUR PRODUCT CATALOG</h1>
                 <div className="catalog-filters">

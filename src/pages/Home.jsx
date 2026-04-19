@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Shield, Settings } from 'lucide-react';
 import FireSafetySection from '../components/FireSafetySection';
+import SEO from '../components/SEO';
 
 const HydrantIconOutline = ({ size = 36, color = "#c0392b", strokeWidth = 1.5 }) => (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round">
@@ -16,6 +17,12 @@ const HydrantIconOutline = ({ size = 36, color = "#c0392b", strokeWidth = 1.5 })
 function Home() {
     return (
         <div className="home-page">
+            <SEO 
+                title="Industrial & Urban Fire Protection Experts" 
+                description="PM Enterprises provides cutting-edge industrial and urban fire protection solutions including fire hydrants, alarms, and custom engineering. We secure your future."
+                keywords="fire protection systems, industrial fire safety, fire hydrant installations, PM Enterprises West Bengal, water control systems" 
+                url="/"
+            />
             <section className="hero-section" style={{
                 backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/ui/backgroundimage.png")',
                 backgroundSize: 'cover',

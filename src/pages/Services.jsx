@@ -1,5 +1,6 @@
 import { Wrench, Shield, Droplets, Map, CheckCircle2, Bell, Flame, Activity } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 function Services() {
     const servicesList = [
@@ -42,6 +43,12 @@ function Services() {
 
     return (
         <div className="page-container services-page">
+            <SEO 
+                title="Fire Protection Services" 
+                description="Explore our comprehensive services: Fire Alarm Systems, Detection Systems, Hydrant installations, equipment maintenance, and safety compliance audits."
+                keywords="fire protection services, fire hydrant installation, fire alarm systems, safety compliance audits, PM Enterprises services" 
+                url="/services"
+            />
             <div className="page-header">
                 <h1 className="page-title">OUR SERVICES</h1>
                 <p className="page-subtitle">Comprehensive fire protection solutions from installation to ongoing maintenance.</p>
