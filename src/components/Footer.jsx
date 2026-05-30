@@ -2,8 +2,8 @@ function Footer() {
     return (
         <footer className="site-footer">
             <div className="footer-inner">
-                PM Enterprises, Simurali, Nadia, West Bengal | Phone: +91 9239689075 | info@pmenterprise.com <br />
-                All Over West Bengal services are provided. Office time: 8 AM to 9PM (Monday to Saturday)<br />
+                PM Enterprises | Phone: +919239689075 | pmenterprisesfiresafety@gmail.com <br />
+                All Over West Bengal services are provided. Mon–Fri: 8AM–10PM | Sat: 8AM–8PM | Sun: 8AM–4PM<br />
                 &copy; {new Date().getFullYear()} PM Enterprises. All rights reserved.
             </div>
         </footer>

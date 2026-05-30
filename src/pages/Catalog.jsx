@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { products } from '../data/products';
 import SEO from '../components/SEO';
+import { breadcrumbSchema, itemListSchema } from '../utils/schema';
 
 function Catalog() {
     const [filter, setFilter] = useState('all');
@@ -15,11 +16,18 @@ function Catalog() {
 
     return (
         <div className="catalog-page page-container">
-            <SEO 
-                title="Fire Safety Equipment Catalog" 
+            <SEO
+                title="Fire Safety Equipment Catalog"
                 description="Browse our comprehensive catalog of fire safety equipment, including fire hydrants, extinguishers, valves, alarms, and protective gear."
-                keywords="fire safety catalog, fire extinguishers buy online, fire hydrant valves, PM Enterprises products" 
+                keywords="fire safety catalog, fire extinguishers buy online, fire hydrant valves, PM Enterprises products"
                 url="/products"
+                schema={[
+                    breadcrumbSchema([
+                        { name: 'Home', path: '/' },
+                        { name: 'Products', path: '/products' },
+                    ]),
+                    itemListSchema(products.map(p => ({ name: p.name, path: `/products/${p.id}` }))),
+                ]}
             />
             <div className="catalog-header">
                 <h1 className="catalog-title">OUR PRODUCT CATALOG</h1>
@@ -59,7 +67,7 @@ function Catalog() {
                             )}
                         </div>
                         <div className="product-info">
-                            <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', color: '#d32f2f', fontWeight: 'bold' }}>
+                            <span className="product-category-tag">
                                 {product.category}
                             </span>
 

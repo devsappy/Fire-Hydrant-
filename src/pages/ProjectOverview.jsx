@@ -2,14 +2,15 @@ import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft, Building2, MapPin, CheckCircle2 } from 'lucide-react';
 import SEO from '../components/SEO';
+import { breadcrumbSchema } from '../utils/schema';
 
 const projectsData = {
     'anglo-india-jute-mill': {
         typeTag: 'Industrial Fire Safety',
         locationTag: 'Jagatdal, West Bengal',
-        title: 'Anglo India Jute Mill Installation',
+        title: 'Jute Factory Installation',
         subtitle: 'A comprehensive overhaul and new installation of an advanced fire hydrant system, ensuring safety and compliance across a sprawling industrial jute manufacturing complex.',
-        client: 'Anglo India Jute Mill',
+        client: 'Jute Factory',
         location: 'Jagatdal, Kolkata',
         status: 'Completed',
         images: [
@@ -37,9 +38,9 @@ const projectsData = {
     'stadmed-pvt-ltd': {
         typeTag: 'Pharmaceutical Fire Safety',
         locationTag: 'Kolkata, West Bengal',
-        title: 'Stadmed Pvt Ltd Installation',
+        title: 'Medicine Factory Installation',
         subtitle: 'Comprehensive fire safety and hydrant system installation tailored for pharmaceutical manufacturing, ensuring strict adherence to cleanliness and safety regulations.',
-        client: 'Stadmed Pvt Ltd',
+        client: 'Medicine Factory',
         location: 'Chowringhee Road, Kolkata',
         status: 'Completed',
         images: [
@@ -48,7 +49,7 @@ const projectsData = {
             '/images/projects/DSC_0794.jpeg',
             '/images/projects/DSC_0795.jpeg'
         ],
-        summary1: "Pharmaceutical facilities require specialized fire safety infrastructure that protects highly sensitive equipment and materials without compromising cleanroom environments. This installation at Stadmed Pvt Ltd involved critical planning to integrate effectively within a tightly regulated manufacturing setup.",
+        summary1: "Pharmaceutical facilities require specialized fire safety infrastructure that protects highly sensitive equipment and materials without compromising cleanroom environments. This installation at Medicine Factory involved critical planning to integrate effectively within a tightly regulated manufacturing setup.",
         summary2: "We implemented an end-to-end fire hydrant and alarm network strategically zoned to provide rapid response capabilities. The pumping arrangement and distribution pipelines were carefully routed to ensure maximum coverage with minimal intrusion into key pharmaceutical processing areas.",
         features: [
             'Customized Zonal Fire Hydrant Network',
@@ -85,6 +86,11 @@ function ProjectOverview() {
                 url={`/projects/${id}`}
                 image={project.images[0]}
                 type="article"
+                schema={breadcrumbSchema([
+                    { name: 'Home', path: '/' },
+                    { name: 'Projects', path: '/projects' },
+                    { name: project.title, path: `/projects/${id}` },
+                ])}
             />
             <div className="back-link-wrapper" data-aos="fade-right">
                 <Link to="/projects" className="back-link">
@@ -105,21 +111,21 @@ function ProjectOverview() {
                     {project.subtitle}
                 </p>
 
-                <div style={{ display: 'flex', gap: '30px', borderTop: '1px solid #eee', borderBottom: '1px solid #eee', padding: '20px 0', marginBottom: '40px', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', gap: '30px', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)', padding: '20px 0', marginBottom: '40px', flexWrap: 'wrap' }}>
                     <div>
-                        <div style={{ fontSize: '13px', color: '#777', marginBottom: '5px' }}>Client</div>
+                        <div style={{ fontSize: '13px', color: 'var(--text-3)', marginBottom: '5px' }}>Client</div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 'bold' }}>
                             <Building2 size={16} color="#c0392b" /> {project.client}
                         </div>
                     </div>
                     <div>
-                        <div style={{ fontSize: '13px', color: '#777', marginBottom: '5px' }}>Location</div>
+                        <div style={{ fontSize: '13px', color: 'var(--text-3)', marginBottom: '5px' }}>Location</div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 'bold' }}>
                             <MapPin size={16} color="#c0392b" /> {project.location}
                         </div>
                     </div>
                     <div>
-                        <div style={{ fontSize: '13px', color: '#777', marginBottom: '5px' }}>Status</div>
+                        <div style={{ fontSize: '13px', color: 'var(--text-3)', marginBottom: '5px' }}>Status</div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '6px', fontWeight: 'bold' }}>
                             <CheckCircle2 size={16} color="#27ae60" /> {project.status}
                         </div>
@@ -150,23 +156,23 @@ function ProjectOverview() {
 
             <div className="project-detailed-description" data-aos="fade-up">
                 <h3 className="specs-title" style={{ fontSize: '1.5rem', marginBottom: '20px' }}>Project Summary</h3>
-                <p style={{ color: '#444', lineHeight: '1.8', marginBottom: '20px' }}>
+                <p style={{ color: 'var(--text-2)', lineHeight: '1.8', marginBottom: '20px' }}>
                     {project.summary1}
                 </p>
-                <p style={{ color: '#444', lineHeight: '1.8', marginBottom: '20px' }}>
+                <p style={{ color: 'var(--text-2)', lineHeight: '1.8', marginBottom: '20px' }}>
                     {project.summary2}
                 </p>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '20px', marginTop: '30px' }}>
-                    <div style={{ background: '#f9f9f9', padding: '25px', borderRadius: '8px', border: '1px solid #eee' }}>
-                        <h4 style={{ marginBottom: '15px', color: '#2c3e50' }}>Key Features Installed</h4>
+                    <div style={{ background: 'var(--surface)', padding: '25px', borderRadius: '8px', border: '1px solid var(--border)' }}>
+                        <h4 style={{ marginBottom: '15px', color: 'var(--text)' }}>Key Features Installed</h4>
                         <ul className="benefits-list" style={{ paddingLeft: '0' }}>
                             {project.features.map((feature, idx) => (
                                 <li key={idx}>{feature}</li>
                             ))}
                         </ul>
                     </div>
-                     <div style={{ background: '#f9f9f9', padding: '25px', borderRadius: '8px', border: '1px solid #eee' }}>
-                        <h4 style={{ marginBottom: '15px', color: '#2c3e50' }}>Compliance & Safety</h4>
+                     <div style={{ background: 'var(--surface)', padding: '25px', borderRadius: '8px', border: '1px solid var(--border)' }}>
+                        <h4 style={{ marginBottom: '15px', color: 'var(--text)' }}>Compliance & Safety</h4>
                         <ul className="benefits-list" style={{ paddingLeft: '0' }}>
                             {project.compliance.map((item, idx) => (
                                 <li key={idx}>{item}</li>

@@ -5,7 +5,7 @@ const ThemeContext = createContext();
 export const useTheme = () => useContext(ThemeContext);
 
 export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
@@ -13,7 +13,7 @@ export const ThemeProvider = ({ children }) => {
       setTheme(savedTheme);
       document.body.className = savedTheme + '-theme';
     } else {
-      document.body.className = 'light-theme';
+      document.body.className = 'dark-theme';
     }
   }, []);
 

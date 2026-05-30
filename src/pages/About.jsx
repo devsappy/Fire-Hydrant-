@@ -1,13 +1,18 @@
 import SEO from '../components/SEO';
+import { breadcrumbSchema } from '../utils/schema';
 
 function About() {
     return (
         <div className="page-container about-page">
-            <SEO 
-                title="About Us" 
+            <SEO
+                title="About Us"
                 description="Learn about PM Enterprises, founded in 2023. We provide reliable fire safety installations and top-tier workmanship across West Bengal."
-                keywords="about PM Enterprises, fire safety company West Bengal, Simurali Nadia, quality fire safety installations" 
+                keywords="about PM Enterprises, fire safety company West Bengal, Simurali Nadia, quality fire safety installations"
                 url="/about"
+                schema={breadcrumbSchema([
+                    { name: 'Home', path: '/' },
+                    { name: 'About', path: '/about' },
+                ])}
             />
             <div className="about-hero">
                 <div className="about-hero-content">

@@ -1,14 +1,19 @@
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { Phone, Mail, Clock, MapPin } from 'lucide-react';
 import SEO from '../components/SEO';
+import { breadcrumbSchema } from '../utils/schema';
 
 function Contact() {
     return (
         <div className="page-container contact-page">
-            <SEO 
-                title="Contact Us" 
+            <SEO
+                title="Contact Us"
                 description="Get in touch with PM Enterprises for fire protection installation, equipment supply, and maintenance. We provide services across all over West Bengal."
-                keywords="contact PM Enterprises, fire safety company phone number, fire protection services West Bengal, emergency support" 
+                keywords="contact PM Enterprises, fire safety company phone number, fire protection services West Bengal, emergency support"
                 url="/contact"
+                schema={breadcrumbSchema([
+                    { name: 'Home', path: '/' },
+                    { name: 'Contact', path: '/contact' },
+                ])}
             />
             <div className="page-header text-center">
                 <h1 className="page-title">CONTACT US</h1>
@@ -21,34 +26,42 @@ function Contact() {
                     <p className="contact-intro">Whether you need a quote for a new project, require maintenance, or have a question about our products, our team is ready to assist you.</p>
 
                     <div className="contact-method">
-                        <div className="contact-icon"><MapPin color="#c0392b" /></div>
-                        <div>
-                            <strong>Office</strong>
-                            <p>Simurali, Nadia</p>
-                        </div>
-                    </div>
-
-                    <div className="contact-method">
-                        <div className="contact-icon"><Phone color="#c0392b" /></div>
+                        <div className="contact-icon"><Phone color="var(--accent)" /></div>
                         <div>
                             <strong>Phone</strong>
-                            <p>+91 9239689075</p>
+                            <p>+919239689075</p>
                         </div>
                     </div>
 
                     <div className="contact-method">
-                        <div className="contact-icon"><Mail color="#c0392b" /></div>
+                        <div className="contact-icon"><Mail color="var(--accent)" /></div>
                         <div>
                             <strong>Email</strong>
-                            <p>Sales: sales@pmenterprise.com<br />Info: info@pmenterprise.com</p>
+                            <p>pmenterprisesfiresafety@gmail.com</p>
                         </div>
                     </div>
 
                     <div className="contact-method">
-                        <div className="contact-icon"><Clock color="#c0392b" /></div>
+                        <div className="contact-icon"><MapPin color="var(--accent)" /></div>
+                        <div>
+                            <strong>Office Location</strong>
+                            <p>Simurali, Nadia, West Bengal</p>
+                            <a
+                                href="https://maps.app.goo.gl/B7NpTccdf1RhgRoYA?g_st=aw"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="contact-map-link"
+                            >
+                                Open in Google Maps →
+                            </a>
+                        </div>
+                    </div>
+
+                    <div className="contact-method">
+                        <div className="contact-icon"><Clock color="var(--accent)" /></div>
                         <div>
                             <strong>Business Hours</strong>
-                            <p>8 AM to 9PM (Monday to Saturday)<br />Emergency Support: 24/7<br />All Over West Bengal services are provided.</p>
+                            <p>Mon–Fri: 8 AM to 10 PM<br />Saturday: 8 AM to 8 PM<br />Sunday: 8 AM to 4 PM<br />Emergency Support: 24/7</p>
                         </div>
                     </div>
                 </div>

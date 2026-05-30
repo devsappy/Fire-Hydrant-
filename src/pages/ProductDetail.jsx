@@ -1,13 +1,35 @@
 import { useParams, Link } from 'react-router-dom';
 import { products } from '../data/products';
 import { ChevronLeft } from 'lucide-react';
+import SEO from '../components/SEO';
+import { productSchema, breadcrumbSchema } from '../utils/schema';
 
 function ProductDetail() {
     const { id } = useParams();
     const product = products.find(p => p.id === id) || products[0];
 
+    const url = `/products/${product.id}`;
+    const niceName = product.name.replace(/\b\w+/g, w => w.charAt(0) + w.slice(1).toLowerCase());
+    const description = (product.fullDesc || product.shortDesc || '').slice(0, 160);
+
     return (
         <div className="product-detail-page page-container">
+            <SEO
+                title={`${niceName} — Fire Safety Equipment`}
+                description={description}
+                keywords={`${product.name.toLowerCase()}, ${product.category} fire safety equipment, buy ${product.category} West Bengal, PM Enterprises`}
+                url={url}
+                image={product.image}
+                type="product"
+                schema={[
+                    productSchema(product, url),
+                    breadcrumbSchema([
+                        { name: 'Home', path: '/' },
+                        { name: 'Products', path: '/products' },
+                        { name: niceName, path: url },
+                    ]),
+                ]}
+            />
             <div className="back-link-wrapper">
                 <Link to="/products" className="back-link">
                     <ChevronLeft size={16} /> Back to Catalog

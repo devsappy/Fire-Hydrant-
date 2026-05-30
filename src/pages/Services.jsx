@@ -1,41 +1,42 @@
 import { Wrench, Shield, Droplets, Map, CheckCircle2, Bell, Flame, Activity } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import { breadcrumbSchema } from '../utils/schema';
 
 function Services() {
     const servicesList = [
         {
-            icon: <Bell size={32} color="#1f3a5f" />,
+            icon: <Bell size={32} color="var(--steel)" />,
             title: "Fire Alarm System",
             description: "Comprehensive installation and integration of advanced fire alarm systems, including control panels, smoke detectors, and manual call points for early detection and rapid response."
         },
         {
-            icon: <Activity size={32} color="#1f3a5f" />,
+            icon: <Activity size={32} color="var(--steel)" />,
             title: "Fire Detection Services",
             description: "Advanced fire detection solutions utilizing precise sensors and monitoring networks to guarantee immediate awareness of potential fire hazards in any environment."
         },
         {
-            icon: <Droplets size={32} color="#c0392b" />,
+            icon: <Droplets size={32} color="var(--accent)" />,
             title: "Fire hydrant equipments with installation",
             description: "Supply, installation, and continuous maintenance of robust fire hydrant equipment, ensuring reliable water delivery systems for comprehensive fire protection."
         },
         {
-            icon: <Wrench size={32} color="#c0392b" />,
+            icon: <Wrench size={32} color="var(--accent)" />,
             title: "Installation & Maintenance",
             description: "Our certified technicians provide full-service installation and ongoing maintenance for all types of municipal and private fire hydrants. We ensure your equipment is always ready when needed most, complying with all local and national fire safety codes."
         },
         {
-            icon: <Flame size={32} color="#c0392b" />,
+            icon: <Flame size={32} color="var(--accent)" />,
             title: "Ranges of Fire Extinguishers",
             description: "Comprehensive supply of diverse fire extinguishers including dry powder based, water based, chemical foam based, and AR CO2 based types, targeted to combat any specific fire classes."
         },
         {
-            icon: <Shield size={32} color="#c0392b" />,
+            icon: <Shield size={32} color="var(--accent)" />,
             title: "Safety Compliance Audits",
             description: "We conduct thorough inspections of existing fire protection infrastructure to ensure compliance with NFPA standards and local municipality regulations. We identify potential issues before they become critical failures."
         },
         {
-            icon: <Map size={32} color="#1f3a5f" />,
+            icon: <Map size={32} color="var(--steel)" />,
             title: "System Design & Engineering",
             description: "Our engineering team designs custom fire protection networks for new developments, industrial complexes, and municipal expansions. We optimize for both maximum coverage and long-term durability."
         }
@@ -43,11 +44,32 @@ function Services() {
 
     return (
         <div className="page-container services-page">
-            <SEO 
-                title="Fire Protection Services" 
+            <SEO
+                title="Fire Protection Services"
                 description="Explore our comprehensive services: Fire Alarm Systems, Detection Systems, Hydrant installations, equipment maintenance, and safety compliance audits."
-                keywords="fire protection services, fire hydrant installation, fire alarm systems, safety compliance audits, PM Enterprises services" 
+                keywords="fire protection services, fire hydrant installation, fire alarm systems, safety compliance audits, PM Enterprises services"
                 url="/services"
+                schema={[
+                    breadcrumbSchema([
+                        { name: 'Home', path: '/' },
+                        { name: 'Services', path: '/services' },
+                    ]),
+                    {
+                        '@context': 'https://schema.org',
+                        '@type': 'ItemList',
+                        itemListElement: servicesList.map((s, i) => ({
+                            '@type': 'ListItem',
+                            position: i + 1,
+                            item: {
+                                '@type': 'Service',
+                                name: s.title,
+                                description: s.description,
+                                provider: { '@type': 'Organization', name: 'PM Enterprises' },
+                                areaServed: { '@type': 'State', name: 'West Bengal' },
+                            },
+                        })),
+                    },
+                ]}
             />
             <div className="page-header">
                 <h1 className="page-title">OUR SERVICES</h1>

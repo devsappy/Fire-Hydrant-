@@ -24,10 +24,10 @@ function FireSafetySection() {
     const y3 = useTransform(scrollYProgress, [0.6, 0.8, 1], [150, 0, 0]);
     const scale3 = useTransform(scrollYProgress, [0.6, 0.8, 1], [0.8, 1, 1]);
 
-    // Background color shifts during scroll
-    const bgColor = useTransform(scrollYProgress, [0, 0.5, 1], ["#ffffff", "#f8f9fa", "#1a1a1a"]);
-    const text1Color = useTransform(scrollYProgress, [0, 0.5], ["#2c3e50", "#2c3e50"]);
-    const text2Color = useTransform(scrollYProgress, [0.25, 0.7], ["#2c3e50", "#2c3e50"]);
+    // Background color shifts during scroll (dark industrial palette)
+    const bgColor = useTransform(scrollYProgress, [0, 0.5, 1], ["#0a0c10", "#0e1117", "#000000"]);
+    const text1Color = useTransform(scrollYProgress, [0, 0.5], ["#f3f5f9", "#f3f5f9"]);
+    const text2Color = useTransform(scrollYProgress, [0.25, 0.7], ["#f3f5f9", "#f3f5f9"]);
 
     return (
         <section ref={containerRef} style={{ height: '300vh', position: 'relative' }}>
