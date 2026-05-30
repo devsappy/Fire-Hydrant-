@@ -204,6 +204,10 @@ h1, h2, h3, .hero-title, .page-title, .catalog-title, .detail-title, .fs-title, 
 .nav-link.active::after { transform: scaleX(1); }
 .nav-link.active { color: var(--text); }
 
+/* Description + arrow only show inside the mobile menu */
+.nav-link-arrow,
+.nav-link-desc { display: none; }
+
 .nav-divider { display: none; }
 
 /* =========================================================
@@ -1363,15 +1367,37 @@ h1, h2, h3, .hero-title, .page-title, .catalog-title, .detail-title, .fs-title, 
   }
   .main-nav.open { opacity: 1; visibility: visible; transform: translateY(0); }
   .main-nav .nav-link {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 12px;
     width: 100%;
-    max-width: 380px;
-    text-align: center;
-    padding: 18px;
-    font-size: 17px;
+    max-width: 420px;
+    text-align: left;
+    padding: 15px 6px;
     border-bottom: 1px solid var(--border);
   }
   .main-nav .nav-link::after { display: none; }
   .main-nav .nav-divider { display: none; }
+  .main-nav .nav-link-label { flex: 1; font-size: 17px; font-weight: 700; letter-spacing: 0.5px; }
+  .main-nav .nav-link-arrow {
+    display: inline-block;
+    flex-shrink: 0;
+    color: var(--text-3);
+    transition: transform 0.2s var(--ease), color 0.2s var(--ease);
+  }
+  .main-nav .nav-link-desc {
+    display: block;
+    flex-basis: 100%;
+    margin-top: 4px;
+    font-size: 12.5px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--text-3);
+  }
+  .main-nav .nav-link.active .nav-link-arrow,
+  .main-nav .nav-link:hover .nav-link-arrow { color: var(--accent); transform: translateX(3px); }
   .main-nav [aria-label="Toggle Theme"] { margin-top: 24px; }
 
   .product-grid { grid-template-columns: repeat(2, 1fr); }

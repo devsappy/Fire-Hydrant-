@@ -11,13 +11,13 @@
 - Map: https://maps.app.goo.gl/B7NpTccdf1RhgRoYA
 
 ## Key pages
-- [Home](https://pmenterprises.xyz/): Overview of fire protection products and services
-- [Products](https://pmenterprises.xyz/products): Full catalog — hydrants, valves, extinguishers, alarms, sprinklers
-- [Services](https://pmenterprises.xyz/services): Alarm systems, fire detection, hydrant installation, maintenance, compliance audits, system design & engineering
-- [Projects](https://pmenterprises.xyz/projects): Completed installations (Jute Factory, Medicine Factory)
-- [About](https://pmenterprises.xyz/about): Company background and mission
-- [Blog](https://pmenterprises.xyz/blog): Fire safety guides, regulations and case studies
-- [Contact](https://pmenterprises.xyz/contact): Get a quote or request service
+- [Home](https://www.pmenterprises.xyz/): Overview of fire protection products and services
+- [Products](https://www.pmenterprises.xyz/products): Full catalog — hydrants, valves, extinguishers, alarms, sprinklers
+- [Services](https://www.pmenterprises.xyz/services): Alarm systems, fire detection, hydrant installation, maintenance, compliance audits, system design & engineering
+- [Projects](https://www.pmenterprises.xyz/projects): Completed installations (Jute Factory, Medicine Factory)
+- [About](https://www.pmenterprises.xyz/about): Company background and mission
+- [Blog](https://www.pmenterprises.xyz/blog): Fire safety guides, regulations and case studies
+- [Contact](https://www.pmenterprises.xyz/contact): Get a quote or request service
 
 ## Product categories
 - Landing valves (Type-A/Type-B), collecting heads, water monitors, shut-off & branch-pipe nozzles

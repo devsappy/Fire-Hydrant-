@@ -1,4 +1,4 @@
-# robots.txt — PM Enterprises (https://pmenterprises.xyz)
+# robots.txt — PM Enterprises (https://www.pmenterprises.xyz)
 
 # Default: allow everything
 User-agent: *
@@ -45,4 +45,4 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
-Sitemap: https://pmenterprises.xyz/sitemap.xml
+Sitemap: https://www.pmenterprises.xyz/sitemap.xml

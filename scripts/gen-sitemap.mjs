@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 import { products } from '../src/data/products.js';
 
-const SITE = 'https://pmenterprises.xyz';
+const SITE = 'https://www.pmenterprises.xyz';
 const today = new Date().toISOString().slice(0, 10);
 
 const routes = [

@@ -1,8 +1,18 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Fragment } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Sun, Moon } from 'lucide-react';
+import { Menu, X, Sun, Moon, ChevronRight } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
+
+const navItems = [
+    { to: '/', label: 'HOME', desc: 'Back to the homepage', end: true },
+    { to: '/products', label: 'PRODUCTS', desc: 'Browse our fire safety catalog' },
+    { to: '/services', label: 'SERVICES', desc: 'Installation, AMC & safety audits' },
+    { to: '/projects', label: 'PROJECTS', desc: 'Our completed installations' },
+    { to: '/about', label: 'ABOUT US', desc: 'Who we are & our mission' },
+    { to: '/blog', label: 'BLOG', desc: 'Fire safety guides & news' },
+    { to: '/contact', label: 'CONTACT', desc: 'Get a quote or reach us' },
+];
 
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -38,19 +48,21 @@ function Header() {
                 </button>
 
                 <nav className={`main-nav ${isMenuOpen ? 'open' : ''}`}>
-                    <NavLink to="/" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu} end>HOME</NavLink>
-                    <span className="nav-divider">|</span>
-                    <NavLink to="/products" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu}>PRODUCTS</NavLink>
-                    <span className="nav-divider">|</span>
-                    <NavLink to="/services" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu}>SERVICES</NavLink>
-                    <span className="nav-divider">|</span>
-                    <NavLink to="/projects" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu}>PROJECTS</NavLink>
-                    <span className="nav-divider">|</span>
-                    <NavLink to="/about" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu}>ABOUT US</NavLink>
-                    <span className="nav-divider">|</span>
-                    <NavLink to="/blog" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu}>BLOG</NavLink>
-                    <span className="nav-divider">|</span>
-                    <NavLink to="/contact" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} onClick={closeMenu}>CONTACT</NavLink>
+                    {navItems.map((item, i) => (
+                        <Fragment key={item.to}>
+                            <NavLink
+                                to={item.to}
+                                end={item.end}
+                                onClick={closeMenu}
+                                className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}
+                            >
+                                <span className="nav-link-label">{item.label}</span>
+                                <ChevronRight className="nav-link-arrow" size={18} />
+                                <span className="nav-link-desc">{item.desc}</span>
+                            </NavLink>
+                            {i < navItems.length - 1 && <span className="nav-divider">|</span>}
+                        </Fragment>
+                    ))}
                     <span className="nav-divider">|</span>
                     <div 
                         onClick={toggleTheme} 

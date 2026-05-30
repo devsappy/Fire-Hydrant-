@@ -1,6 +1,6 @@
 // Centralized SEO / structured-data helpers (single source of truth).
 
-export const SITE_URL = "https://pmenterprises.xyz";
+export const SITE_URL = "https://www.pmenterprises.xyz";
 export const SITE_NAME = "PM Enterprises";
 export const SITE_LOGO = `${SITE_URL}/images/ui/pmenterpriseslogo.png`;
 
