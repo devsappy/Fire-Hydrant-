@@ -77,7 +77,7 @@ function Home() {
                         <span className="hx-stat-label">Quality Assured</span>
                     </div>
                     <div className="hx-stat">
-                        <span className="hx-stat-num">WB</span>
+                        <span className="hx-stat-num" style={{ fontSize: 'clamp(20px, 2.4vw, 28px)', lineHeight: 1.15 }}>West Bengal</span>
                         <span className="hx-stat-label">Statewide Service</span>
                     </div>
                 </div>

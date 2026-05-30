@@ -164,8 +164,8 @@ h1, h2, h3, .hero-title, .page-title, .catalog-title, .detail-title, .fs-title, 
   letter-spacing: -0.5px;
 }
 
-.logo-p { color: var(--text); }
-.logo-enterprise { color: var(--text-2); font-weight: 500; }
+.logo-p { color: #2f2a8c; }
+.logo-enterprise { color: #2f2a8c; font-weight: 600; }
 
 .main-nav {
   display: flex;
@@ -1310,12 +1310,12 @@ h1, h2, h3, .hero-title, .page-title, .catalog-title, .detail-title, .fs-title, 
    FOOTER
    ========================================================= */
 .site-footer {
-  background: var(--bg-2);
+  background: #2b2f36;
   border-top: 1px solid var(--border);
   padding: 30px 40px;
   text-align: center;
   font-size: 13px;
-  color: var(--text-3);
+  color: #c2c8d2;
   margin-top: auto;
 }
 .footer-inner { max-width: var(--max); margin: 0 auto; line-height: 1.9; }
