@@ -104,7 +104,7 @@ function ProjectOverview() {
                     <span className="tag" style={{ background: '#c0392b', color: 'white' }}>{project.typeTag}</span>
                     <span className="tag">{project.locationTag}</span>
                 </div>
-                <h1 className="page-title" style={{ fontSize: '2.5rem', marginBottom: '15px' }}>
+                <h1 className="page-title" style={{ marginBottom: '15px' }}>
                     {project.title}
                 </h1>
                 <p className="page-subtitle" style={{ maxWidth: '800px', marginBottom: '30px', fontSize: '1.1rem' }}>
@@ -133,21 +133,15 @@ function ProjectOverview() {
                 </div>
             </div>
 
-            <div className="project-gallery" style={{ 
-                display: 'grid', 
-                gridTemplateColumns: 'repeat(2, 1fr)', 
-                gap: '20px',
-                marginBottom: '40px'
-            }}>
+            <div className="project-gallery">
                 {project.images.map((img, idx) => (
-                    <img 
+                    <img
                         key={idx}
-                        src={img} 
-                        alt={`Project Overview ${idx + 1}`} 
+                        src={img}
+                        alt={`${project.title} — installation photo ${idx + 1}`}
                         data-aos="fade-up"
                         data-aos-delay={100 * (idx + 1)}
-                        style={{ width: '100%', height: '350px', objectFit: 'cover', borderRadius: '8px', border: '1px solid #e5e5e5' }}
-                        onError={(e) => { 
+                        onError={(e) => {
                             if(img.endsWith('.jpeg')) { e.target.onerror = null; e.target.src = img.replace('.jpeg', '.NEF'); }
                         }}
                     />

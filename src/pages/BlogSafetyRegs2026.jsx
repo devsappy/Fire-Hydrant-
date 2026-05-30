@@ -33,7 +33,7 @@ function BlogSafetyRegs2026() {
                 <div style={{ fontSize: '0.85rem', color: 'var(--accent-2)', marginBottom: '12px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>Industry News</div>
                 <h1 style={{ fontSize: 'clamp(28px, 5vw, 44px)', marginBottom: '20px', color: 'var(--text)', letterSpacing: '-0.5px' }}>New Fire Safety Regulations for 2026: What Businesses Need to Know</h1>
                 <p style={{ color: 'var(--text-2)', fontSize: '1.1rem' }}>Stay compliant with the latest fire safety codes and regulations updating this year for commercial, industrial, and high-rise buildings.</p>
-                <div style={{ marginTop: '30px', width: '100%', height: '350px', overflow: 'hidden', borderRadius: 'var(--radius)', border: '1px solid var(--border)' }}>
+                <div className="blog-hero-image">
                     <img src="/images/blogs/blog2_img.png" alt="Commercial building fire safety code compliance map and inspection documents" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
             </header>

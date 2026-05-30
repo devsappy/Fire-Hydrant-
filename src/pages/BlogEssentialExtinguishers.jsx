@@ -33,7 +33,7 @@ function BlogEssentialExtinguishers() {
                 <div style={{ fontSize: '0.85rem', color: 'var(--accent-2)', marginBottom: '12px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>Fire Safety Tips</div>
                 <h1 style={{ fontSize: 'clamp(28px, 5vw, 44px)', marginBottom: '20px', color: 'var(--text)', letterSpacing: '-0.5px' }}>Essential Fire Extinguisher Types: A Comprehensive Guide</h1>
                 <p style={{ color: 'var(--text-2)', fontSize: '1.1rem' }}>Learn about the different classes of fire extinguishers and when to use them effectively in your home or workplace to ensure maximum fire safety.</p>
-                <div style={{ marginTop: '30px', width: '100%', height: '350px', overflow: 'hidden', borderRadius: 'var(--radius)', border: '1px solid var(--border)' }}>
+                <div className="blog-hero-image">
                     <img src="/images/blogs/blog1_img.png" alt="Different types of fire extinguishers including ABC powder, CO2, and AFFF foam" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
             </header>

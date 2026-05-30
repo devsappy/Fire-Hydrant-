@@ -44,12 +44,20 @@ function Home() {
                         <div className="hx-actions">
                             <Link to="/products" className="btn btn-primary btn-large">View Products <ArrowRight size={18} /></Link>
                             <Link to="/contact" className="btn btn-ghost btn-large">Get a Quote</Link>
+                            <a
+                                href="https://maps.app.goo.gl/B7NpTccdf1RhgRoYA?g_st=aw"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-map btn-large"
+                            >
+                                <MapPin size={18} /> View Location
+                            </a>
                         </div>
                     </div>
 
                     <aside className="hx-hero-side" data-aos="fade-left">
                         <div className="hx-frame">
-                            <img src="/images/ui/hero.png" alt="PM Enterprises fire protection installation" />
+                            <img src="/images/ui/hero-fire-pipes.jpg" alt="Rows of red fire hydrant risers and fire protection piping in an industrial facility" />
                             <span className="hx-frame-badge">Trusted across West Bengal</span>
                         </div>
                     </aside>
@@ -78,7 +86,7 @@ function Home() {
             {/* ===== MARQUEE ===== */}
             <div className="hx-marquee">
                 <div className="hx-marquee-track">
-                    {[...marqueeItems, ...marqueeItems].map((item, i) => (
+                    {[...marqueeItems, ...marqueeItems, ...marqueeItems, ...marqueeItems].map((item, i) => (
                         <span className="hx-marquee-item" key={i}>
                             {item} <span className="hx-marquee-dot">◆</span>
                         </span>
@@ -142,17 +150,6 @@ function Home() {
                     <Link to="/contact" className="btn btn-primary btn-large">Contact Us <ArrowRight size={18} /></Link>
                 </div>
             </section>
-
-            {/* ===== LOCATION ===== */}
-            <a
-                href="https://maps.app.goo.gl/B7NpTccdf1RhgRoYA?g_st=aw"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="location-strip"
-            >
-                <MapPin size={16} />
-                Simurali, Nadia, West Bengal — Open in Google Maps
-            </a>
         </div>
     );
 }

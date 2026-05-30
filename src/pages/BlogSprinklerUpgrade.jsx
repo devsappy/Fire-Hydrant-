@@ -33,7 +33,7 @@ function BlogSprinklerUpgrade() {
                 <div style={{ fontSize: '0.85rem', color: 'var(--accent-2)', marginBottom: '12px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1px' }}>Case Study</div>
                 <h1 style={{ fontSize: 'clamp(28px, 5vw, 44px)', marginBottom: '20px', color: 'var(--text)', letterSpacing: '-0.5px' }}>Warehouse Sprinkler System Upgrade: A Massive Overhaul</h1>
                 <p style={{ color: 'var(--text-2)', fontSize: '1.1rem' }}>Discover how PM Enterprises completely overhauled the fire suppression system for a 50,000 sq ft logistics center, enhancing modern safety without interrupting workflow.</p>
-                <div style={{ marginTop: '30px', width: '100%', height: '350px', overflow: 'hidden', borderRadius: 'var(--radius)', border: '1px solid var(--border)' }}>
+                <div className="blog-hero-image">
                     <img src="/images/blogs/blog3_img.png" alt="Industrial warehouse roofing with installed high-pressure fire sprinkler networks and wet riser pipes" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                 </div>
             </header>
