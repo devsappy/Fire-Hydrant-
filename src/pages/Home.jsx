@@ -2,6 +2,34 @@ import { Link } from 'react-router-dom';
 import { Shield, Settings, Bell, ArrowRight, ArrowUpRight, MapPin } from 'lucide-react';
 import FireSafetySection from '../components/FireSafetySection';
 import SEO from '../components/SEO';
+import { faqSchema } from '../utils/schema';
+
+const FAQS = [
+    {
+        q: 'What does a fire safety company do?',
+        a: 'A fire safety company supplies, installs, tests and maintains fire protection equipment — fire hydrants, extinguishers, alarms, detection and sprinkler systems — and carries out safety compliance audits. PM Enterprises provides all of these across West Bengal for homes, commercial buildings and industrial sites.',
+    },
+    {
+        q: 'Which fire extinguisher should I use for an electrical fire?',
+        a: 'Use a CO₂ (carbon dioxide) extinguisher for electrical fires — it is non-conductive and leaves no residue. ABC dry powder extinguishers are also rated for electrical (Class C) fires. Never use water or foam extinguishers on live electrical equipment.',
+    },
+    {
+        q: 'How often should fire extinguishers and hydrants be serviced?',
+        a: 'Fire extinguishers should be inspected at least once a year and refilled per IS standards, while hydrant systems and sprinkler valves should be checked quarterly. PM Enterprises offers annual maintenance contracts (AMC) and scheduled inspections to keep your equipment compliant.',
+    },
+    {
+        q: 'Do you provide fire safety services across West Bengal?',
+        a: 'Yes. Based in Simurali, Nadia, PM Enterprises provides fire protection supply, installation and maintenance across all of West Bengal, including Kolkata, Nadia, Kalyani and surrounding industrial areas, with 24/7 emergency support.',
+    },
+    {
+        q: 'What fire safety equipment is required for a commercial building?',
+        a: 'Most commercial buildings require fire extinguishers, a fire hydrant/wet-riser system, an addressable fire alarm with smoke detectors, and in many cases automatic sprinklers — all installed to Indian Standard (IS) codes. We assess your building and design a compliant system.',
+    },
+    {
+        q: 'How do I get a quote for fire protection?',
+        a: 'Call +91 92396 89075, email pmenterprisesfiresafety@gmail.com, or use our contact page. We provide a free site assessment and a tailored quote for products, installation and maintenance.',
+    },
+];
 
 const HydrantIconOutline = ({ size = 26, color = "var(--accent)", strokeWidth = 1.6 }) => (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round">
@@ -23,10 +51,11 @@ function Home() {
     return (
         <div className="home-page">
             <SEO
-                title="Industrial & Urban Fire Protection Experts"
-                description="PM Enterprises provides cutting-edge industrial and urban fire protection solutions including fire hydrants, alarms, and custom engineering. We secure your future."
-                keywords="fire protection systems, industrial fire safety, fire hydrant installations, PM Enterprises West Bengal, water control systems"
+                title="Fire Safety & Fire Protection Company in West Bengal"
+                description="PM Enterprises is a West Bengal fire safety company supplying & installing fire hydrants, extinguishers, alarms and sprinkler systems — with maintenance, AMC and compliance audits. Free site assessment, 24/7 support."
+                keywords="fire safety, fire safety company West Bengal, fire protection services, fire hydrant installation, fire extinguishers, fire alarm systems, sprinkler systems, fire safety Nadia Kolkata, PM Enterprises"
                 url="/"
+                schema={faqSchema(FAQS)}
             />
 
             {/* ===== HERO ===== */}
@@ -57,7 +86,7 @@ function Home() {
 
                     <aside className="hx-hero-side" data-aos="fade-left">
                         <div className="hx-frame">
-                            <img src="/images/ui/hero-fire-pipes.jpg" alt="Rows of red fire hydrant risers and fire protection piping in an industrial facility" />
+                            <img src="/images/ui/hero-hydrant.png" alt="Red cast-iron fire hydrant with hose-outlet caps and chains" />
                             <span className="hx-frame-badge">Trusted across West Bengal</span>
                         </div>
                     </aside>
@@ -139,6 +168,22 @@ function Home() {
             </section>
 
             <FireSafetySection />
+
+            {/* ===== FAQ ===== */}
+            <section className="hx-section hx-faq">
+                <div className="hx-section-head" data-aos="fade-up">
+                    <span className="hx-kicker">FAQ</span>
+                    <h2 className="hx-h2">Fire safety questions, answered.</h2>
+                </div>
+                <div className="hx-faq-list">
+                    {FAQS.map((f, i) => (
+                        <details className="hx-faq-item" key={i} {...(i === 0 ? { open: true } : {})}>
+                            <summary className="hx-faq-q">{f.q}</summary>
+                            <p className="hx-faq-a">{f.a}</p>
+                        </details>
+                    ))}
+                </div>
+            </section>
 
             {/* ===== CTA BAND ===== */}
             <section className="hx-cta-band">

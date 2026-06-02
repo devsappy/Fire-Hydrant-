@@ -45,8 +45,8 @@ function Services() {
     return (
         <div className="page-container services-page">
             <SEO
-                title="Fire Protection Services"
-                description="Explore our comprehensive services: Fire Alarm Systems, Detection Systems, Hydrant installations, equipment maintenance, and safety compliance audits."
+                title="Fire Safety Services — Installation, AMC & Audits"
+                description="Fire safety services across West Bengal: fire alarm & detection systems, hydrant installation, fire extinguisher supply, equipment maintenance (AMC) and safety compliance audits by PM Enterprises."
                 keywords="fire protection services, fire hydrant installation, fire alarm systems, safety compliance audits, PM Enterprises services"
                 url="/services"
                 schema={[

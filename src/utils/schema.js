@@ -66,6 +66,17 @@ export const articleSchema = ({ title, description, image, url, datePublished, d
     mainEntityOfPage: { "@type": "WebPage", "@id": absUrl(url) },
 });
 
+/** FAQPage from [{ q, a }] — strong for answer engines & "People Also Ask". */
+export const faqSchema = (items = []) => ({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map(({ q, a }) => ({
+        "@type": "Question",
+        name: q,
+        acceptedAnswer: { "@type": "Answer", text: a },
+    })),
+});
+
 /** ItemList of links (e.g. product catalog, services). */
 export const itemListSchema = (items = []) => ({
     "@context": "https://schema.org",

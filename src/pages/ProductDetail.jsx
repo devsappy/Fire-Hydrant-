@@ -1,4 +1,5 @@
-import { useParams, Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { useParams, Link, Navigate } from 'react-router-dom';
 import { products } from '../data/products';
 import { ChevronLeft } from 'lucide-react';
 import SEO from '../components/SEO';
@@ -6,7 +7,17 @@ import { productSchema, breadcrumbSchema } from '../utils/schema';
 
 function ProductDetail() {
     const { id } = useParams();
-    const product = products.find(p => p.id === id) || products[0];
+    const found = products.find(p => p.id === id);
+    const product = found || products[0];
+
+    const [selectedSize, setSelectedSize] = useState(product.sizes?.[0] || null);
+    // Reset the chosen size when navigating between products
+    useEffect(() => {
+        setSelectedSize(product.sizes?.[0] || null);
+    }, [product.id]);
+
+    // Unknown product id (e.g. an old/removed URL) -> send to the catalog
+    if (!found) return <Navigate to="/products" replace />;
 
     const url = `/products/${product.id}`;
     const niceName = product.name.replace(/\b\w+/g, w => w.charAt(0) + w.slice(1).toLowerCase());
@@ -51,6 +62,24 @@ function ProductDetail() {
                     <h3 className="detail-subtitle">Premier Industrial & Urban Fire Protection</h3>
                     <p className="detail-desc">{product.fullDesc || "High quality fire protection equipment built for rigorous environments."}</p>
 
+                    {product.sizes && product.sizes.length > 0 && (
+                        <div className="size-selector">
+                            <h4 className="specs-title">CHOOSE SIZE</h4>
+                            <div className="size-options">
+                                {product.sizes.map(size => (
+                                    <button
+                                        key={size}
+                                        type="button"
+                                        className={`size-pill ${selectedSize === size ? 'active' : ''}`}
+                                        onClick={() => setSelectedSize(size)}
+                                    >
+                                        {size}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
                     <div className="specs-section">
                         <h4 className="specs-title">TECHNICAL SPECIFICATIONS</h4>
                         <table className="specs-table">
@@ -79,7 +108,13 @@ function ProductDetail() {
                         </table>
                     </div>
 
-                    <Link to="/contact" className="btn btn-primary btn-large btn-full btn-quote" style={{ display: 'block', textAlign: 'center' }}>REQUEST A QUOTE</Link>
+                    <Link
+                        to={`/contact?product=${encodeURIComponent(product.name)}${selectedSize ? `&size=${encodeURIComponent(selectedSize)}` : ''}`}
+                        className="btn btn-primary btn-large btn-full btn-quote"
+                        style={{ display: 'block', textAlign: 'center' }}
+                    >
+                        REQUEST A QUOTE{selectedSize ? ` — ${selectedSize}` : ''}
+                    </Link>
 
 
                 </div>

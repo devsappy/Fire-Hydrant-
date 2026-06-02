@@ -2,277 +2,403 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.pmenterprises.xyz/</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/services</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/projects</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/about</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/blog</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/contact</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/projects/anglo-india-jute-mill</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/projects/stadmed-pvt-ltd</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/blog/essential-fire-extinguisher-types</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/blog/new-safety-regulations-2026</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/blog/warehouse-sprinkler-system-upgrade</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/lv-single</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/lv-double</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/so-nozzle</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/ch-four</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/wm-standard</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/hc-delivery</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/hb-standard</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/bp-nozzle</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/bp-nozle-alt</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/hr-drum</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/sp-standard</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/mcp-standard</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/fap-standard</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/ms-hooter</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/fa-strobe</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/sd-detector</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/fire-kit-1kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/abc-powder</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/dcp-powder</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/co2-extinguisher</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/afff-foam</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/water-extinguisher</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/auto-modular</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/portable-400ml</loc>
-    <lastmod>2026-05-30</lastmod>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/abc-1kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/fire-kit-1kg</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/abc-2kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/premier-fire-hose</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/afff-9l</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/premier-extra-fire-hose</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/dcp-5kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/premier-dj-hydroline</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/dcp-10kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/pyrofrac</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/co2-4-5kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/watershield</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/co2-6-5kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/pyroprotect</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/co2-9kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/aquasurge</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/co2-22-5kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/storz-coupling</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/afff-9l-sp</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/suction-coupling</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/water-co2-9l-sp</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/threaded-adaptor</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/water-co2-9l</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/storz-adaptor</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/afff-50l</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/gost-adaptor</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/dcp-25kg</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/pumper-adaptor</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.pmenterprises.xyz/products/water-co2-50l</loc>
-    <lastmod>2026-05-30</lastmod>
+    <loc>https://www.pmenterprises.xyz/products/flange-adaptor</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/blank-cap-chain</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/collecting-breeching</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/pillar-hydrant-standpost</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/standpipe-hydrant-key</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/carbon-steel-monitor</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/ul-monitor</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/remote-monitor</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/monitor-jet-nozzle</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/hose-reel-drum-newage</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/hose-reel-accessories</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/fire-hose-cabinet</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/pendent-sprinkler</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/upright-sprinkler</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/concealed-sprinkler</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/alarm-check-valve</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/water-spray-nozzle</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/products/sprinkler-flexible-hose</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
