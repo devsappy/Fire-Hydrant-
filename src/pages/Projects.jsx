@@ -68,11 +68,11 @@ function Projects() {
                 {/* Medicine Factory Project */}
                 <div className="project-showcase-card" data-aos="fade-up" data-aos-delay="200">
                     <div className="project-image-wrapper">
-                        <img 
-                            src="/images/projects/DSC_0788.jpeg" 
-                            alt="Medicine Factory Fire Safety Installation" 
+                        <img
+                            src="/images/projects/DSC_0788.jpeg"
+                            alt="Medicine Factory Fire Safety Installation"
                             className="project-image"
-                            onError={(e) => { e.target.onerror = null; e.target.src = '/images/projects/DSC_0788.NEF'; }}
+                            loading="lazy"
                         />
                         <div className="project-year-badge">Recent</div>
                     </div>

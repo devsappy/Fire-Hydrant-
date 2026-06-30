@@ -1190,6 +1190,41 @@ h1, h2, h3, .hero-title, .page-title, .catalog-title, .detail-title, .fs-title, 
   border: 1px solid var(--border);
 }
 
+/* "More photos" tile that sits in the gallery grid beside the images */
+.gallery-more-tile {
+  width: 100%;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  color: var(--text-2);
+  background: var(--surface);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+.gallery-more-tile:hover {
+  color: #fff;
+  border-color: #c0392b;
+  background: rgba(192, 57, 43, 0.08);
+  transform: translateY(-2px);
+}
+.gallery-more-count {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.gallery-more-label {
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 /* =========================================================
    ABOUT (professional multi-section layout)
    ========================================================= */
@@ -1662,6 +1697,7 @@ h1, h2, h3, .hero-title, .page-title, .catalog-title, .detail-title, .fs-title, 
   .contact-info-panel { padding: 30px 24px; }
   .project-gallery { grid-template-columns: 1fr; gap: 14px; }
   .project-gallery img { height: 240px; }
+  .gallery-more-tile { height: 240px; }
   .main-image-wrapper { height: 300px; }
   .thumbnail { height: 60px; }
   .blog-detail-page .blog-hero-image { height: 210px; margin-top: 22px; }

@@ -1,8 +1,9 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, Building2, MapPin, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, Building2, MapPin, CheckCircle2, Images, ChevronUp } from 'lucide-react';
 import SEO from '../components/SEO';
 import { breadcrumbSchema } from '../utils/schema';
+import { projectGalleries } from '../data/projectGalleries';
 
 const projectsData = {
     'anglo-india-jute-mill': {
@@ -69,13 +70,23 @@ const projectsData = {
 
 function ProjectOverview() {
     const { id } = useParams();
+    const [showMore, setShowMore] = useState(false);
+    const [prevId, setPrevId] = useState(id);
+
+    // Reset the gallery state when navigating between projects (same component
+    // instance is reused across routes, so collapse "More" on id change).
+    if (id !== prevId) {
+        setPrevId(id);
+        setShowMore(false);
+    }
 
     // Scroll to top on load
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, []);
+    }, [id]);
 
     const project = projectsData[id] || projectsData['anglo-india-jute-mill'];
+    const moreImages = projectGalleries[id] || [];
     
     return (
         <div className="page-container project-detail-page">
@@ -136,17 +147,52 @@ function ProjectOverview() {
             <div className="project-gallery">
                 {project.images.map((img, idx) => (
                     <img
-                        key={idx}
+                        key={img}
                         src={img}
                         alt={`${project.title} — installation photo ${idx + 1}`}
+                        loading="lazy"
                         data-aos="fade-up"
                         data-aos-delay={100 * (idx + 1)}
-                        onError={(e) => {
-                            if(img.endsWith('.jpeg')) { e.target.onerror = null; e.target.src = img.replace('.jpeg', '.NEF'); }
-                        }}
+                    />
+                ))}
+
+                {/* "More" tile beside the featured images — reveals the full photo set */}
+                {!showMore && moreImages.length > 0 && (
+                    <button
+                        type="button"
+                        className="gallery-more-tile"
+                        onClick={() => setShowMore(true)}
+                        aria-label={`Show ${moreImages.length} more photos`}
+                        data-aos="fade-up"
+                    >
+                        <Images size={28} />
+                        <span className="gallery-more-count">+{moreImages.length}</span>
+                        <span className="gallery-more-label">More Photos</span>
+                    </button>
+                )}
+
+                {showMore && moreImages.map((img, idx) => (
+                    <img
+                        key={img}
+                        src={img}
+                        alt={`${project.title} — installation photo ${project.images.length + idx + 1}`}
+                        loading="lazy"
                     />
                 ))}
             </div>
+
+            {showMore && moreImages.length > 0 && (
+                <div style={{ textAlign: 'center', marginTop: '20px' }}>
+                    <button
+                        type="button"
+                        className="btn btn-secondary"
+                        onClick={() => setShowMore(false)}
+                        style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}
+                    >
+                        <ChevronUp size={16} /> Show Less
+                    </button>
+                </div>
+            )}
 
             <div className="project-detailed-description" data-aos="fade-up">
                 <h3 className="specs-title" style={{ fontSize: '1.5rem', marginBottom: '20px' }}>Project Summary</h3>
