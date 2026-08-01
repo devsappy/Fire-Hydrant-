@@ -1,405 +1,528 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.pmenterprises.xyz/</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/ui/hero-hydrant.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/ui/pmenterpriseslogo.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/single_landing_valve.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/double_landing_valve.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/shut_off_nozzle.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/collecting_head.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/watermonitor.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/delivery_hose_coupling.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/hose_box.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/branch_pipe_nozzle.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/Branch_Pipe_nozle.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/hose_reel_drum.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/sprinkler.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/manual_call_point.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/fire_alarm_panel.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/M.S%20Hooter.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/Fire%20alarms.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/Smoke_detector.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/abc2kg.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/DCP%205%20Kgs.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/co2.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/AFFF.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/services</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/projects</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/proj1_img1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/DSC_0788.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/about</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/ui/aboutusbackground.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/blog</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/contact</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/projects/anglo-india-jute-mill</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/proj1_img1.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/proj1_img2.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/proj1_img3.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/proj1_img4.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_141901.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_141905.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_141910.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_142514.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_142516.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_143348.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_143622.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_143828.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_143934.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_144148.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_144152.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_144157.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_144228.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_144416.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_144424.jpg.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/jute-factory/20260331_144426.jpg.jpeg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/projects/stadmed-pvt-ltd</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/DSC_0788.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/DSC_0789.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/DSC_0794.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_153746.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_153800.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_153806.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_153824.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_153825.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_153828.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_153838.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_153851.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154201.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154313.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154417.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154544.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154615.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154645.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154648.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154723.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/blog/essential-fire-extinguisher-types</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/blogs/blog1_img.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/blog/new-safety-regulations-2026</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/blogs/blog2_img.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/blog/warehouse-sprinkler-system-upgrade</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/blogs/blog3_img.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/lv-single</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/single_landing_valve.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/lv-double</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/double_landing_valve.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/so-nozzle</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/shut_off_nozzle.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/ch-four</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/collecting_head.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/wm-standard</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/watermonitor.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/hc-delivery</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/delivery_hose_coupling.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/hb-standard</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/hose_box.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/bp-nozzle</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/branch_pipe_nozzle.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/bp-nozle-alt</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/Branch_Pipe_nozle.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/hr-drum</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/hose_reel_drum.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/sp-standard</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/sprinkler.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/mcp-standard</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/manual_call_point.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/fap-standard</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/fire_alarm_panel.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/ms-hooter</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/M.S%20Hooter.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/fa-strobe</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/Fire%20alarms.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/sd-detector</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/alarms/Smoke_detector.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/abc-powder</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/abc2kg.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/dcp-powder</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/DCP%205%20Kgs.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/co2-extinguisher</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/co2.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/afff-foam</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/AFFF.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/water-extinguisher</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/co2.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/auto-modular</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/Automatic%20fire%20modular%20extinguisher.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/portable-400ml</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/400mlportable.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/fire-kit-1kg</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/extinguishers/fire_kit.png</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/premier-fire-hose</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hoses/premier-fire-hose.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/premier-extra-fire-hose</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hoses/premier-extra-fire-hose.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/premier-dj-hydroline</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hoses/premier-dj-hydroline.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/pyrofrac</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hoses/pyrofrac.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/watershield</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hoses/watershield.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/pyroprotect</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hoses/permaline-hose.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/aquasurge</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hoses/permaline-hose.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/storz-coupling</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/fittings/storz-coupling.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/suction-coupling</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/fittings/suction-coupling.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/threaded-adaptor</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/fittings/threaded-adaptor.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/storz-adaptor</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/fittings/storz-adaptor.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/gost-adaptor</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/fittings/gost-adaptor.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/pumper-adaptor</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/fittings/pumper-adaptor.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/flange-adaptor</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/fittings/flange-adaptor.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/blank-cap-chain</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/fittings/blank-cap-chain.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/collecting-breeching</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/fittings/collecting-breeching.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/pillar-hydrant-standpost</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/pillar-hydrant-standpost.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/standpipe-hydrant-key</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/hydrants/standpipe-hydrant-key.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/carbon-steel-monitor</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/monitors/carbon-steel-monitor.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/ul-monitor</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/monitors/ul-monitor.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/remote-monitor</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/monitors/remote-monitor.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/monitor-jet-nozzle</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/monitors/monitor-jet-nozzle.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/hose-reel-drum-newage</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/reels/hose-reel.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/hose-reel-accessories</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/reels/hose-reel-accessories.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/fire-hose-cabinet</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/reels/hose-cabinet.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/pendent-sprinkler</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/sprinklers/pendent-sprinkler.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/upright-sprinkler</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/sprinklers/upright-sprinkler.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/concealed-sprinkler</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/sprinklers/concealed-sprinkler.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/alarm-check-valve</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/sprinklers/alarm-check-valve.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/water-spray-nozzle</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/sprinklers/water-spray-nozzle.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/products/sprinkler-flexible-hose</loc>
-    <lastmod>2026-06-01</lastmod>
+    <lastmod>2026-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/sprinklers/sprinkler-flexible-hose.jpg</image:loc></image:image>
   </url>
 </urlset>

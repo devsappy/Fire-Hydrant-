@@ -91,17 +91,17 @@ function ProjectOverview() {
     
     return (
         <div className="page-container project-detail-page">
-            <SEO 
-                title={`${project.title} - Fire Safety Project`} 
-                description={`Read about our fire safety installation at ${project.client}. ${project.subtitle}`}
-                keywords={`${project.typeTag}, fire safety installation ${project.locationTag}, ${project.client} fire hydrant`}
+            <SEO
+                title={`${project.heading ? project.heading + ' — ' : ''}Fire Hydrant System Installation${project.location ? ' in ' + project.location : ''}`}
+                description={`Fire hydrant & safety system installation by PM Enterprises at ${project.heading || project.client}, ${project.location}. ${project.subtitle}`}
+                keywords={`${project.heading || project.client}, fire hydrant installation ${project.location}, ${project.typeTag}, fire safety ${project.locationTag}, industrial fire protection West Bengal, PM Enterprises project`}
                 url={`/projects/${id}`}
                 image={project.images[0]}
                 type="article"
                 schema={breadcrumbSchema([
                     { name: 'Home', path: '/' },
                     { name: 'Projects', path: '/projects' },
-                    { name: project.title, path: `/projects/${id}` },
+                    { name: project.heading || project.title, path: `/projects/${id}` },
                 ])}
             />
             <div className="back-link-wrapper" data-aos="fade-right">
