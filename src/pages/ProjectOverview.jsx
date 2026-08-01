@@ -9,6 +9,7 @@ const projectsData = {
     'anglo-india-jute-mill': {
         typeTag: 'Industrial Fire Safety',
         locationTag: 'Jagatdal, West Bengal',
+        heading: 'Anglo India Jute Mill',
         title: 'Jute Factory Installation',
         subtitle: 'A comprehensive overhaul and new installation of an advanced fire hydrant system, ensuring safety and compliance across a sprawling industrial jute manufacturing complex.',
         client: 'Jute Factory',
@@ -39,16 +40,16 @@ const projectsData = {
     'stadmed-pvt-ltd': {
         typeTag: 'Pharmaceutical Fire Safety',
         locationTag: 'Kolkata, West Bengal',
+        heading: 'Stadmed Pvt Ltd',
         title: 'Medicine Factory Installation',
         subtitle: 'Comprehensive fire safety and hydrant system installation tailored for pharmaceutical manufacturing, ensuring strict adherence to cleanliness and safety regulations.',
         client: 'Medicine Factory',
         location: 'Chowringhee Road, Kolkata',
         status: 'Completed',
         images: [
-            '/images/projects/DSC_0788.jpeg',
-            '/images/projects/DSC_0789.jpeg',
-            '/images/projects/DSC_0794.jpeg',
-            '/images/projects/DSC_0795.jpeg'
+            '/images/projects/medicine-factory/DSC_0788.jpg',
+            '/images/projects/medicine-factory/DSC_0789.jpg',
+            '/images/projects/medicine-factory/DSC_0794.jpg'
         ],
         summary1: "Pharmaceutical facilities require specialized fire safety infrastructure that protects highly sensitive equipment and materials without compromising cleanroom environments. This installation at Medicine Factory involved critical planning to integrate effectively within a tightly regulated manufacturing setup.",
         summary2: "We implemented an end-to-end fire hydrant and alarm network strategically zoned to provide rapid response capabilities. The pumping arrangement and distribution pipelines were carefully routed to ensure maximum coverage with minimal intrusion into key pharmaceutical processing areas.",
@@ -115,6 +116,11 @@ function ProjectOverview() {
                     <span className="tag" style={{ background: '#c0392b', color: 'white' }}>{project.typeTag}</span>
                     <span className="tag">{project.locationTag}</span>
                 </div>
+                {project.heading && (
+                    <div style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: '17px', fontWeight: 700, letterSpacing: '1.5px', textTransform: 'uppercase', color: 'var(--accent)', marginBottom: '12px' }}>
+                        {project.heading}
+                    </div>
+                )}
                 <h1 className="page-title" style={{ marginBottom: '15px' }}>
                     {project.title}
                 </h1>
