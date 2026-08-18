@@ -14,7 +14,7 @@ const PORT = 5179;
 
 const ROUTES = [
     '/', '/products', '/services', '/projects', '/about', '/blog', '/contact',
-    '/projects/anglo-india-jute-mill', '/projects/stadmed-pvt-ltd',
+    '/projects/anglo-india-jute-mill', '/projects/stadmed-pvt-ltd', '/projects/digha-hotel',
     '/blog/essential-fire-extinguisher-types',
     '/blog/new-safety-regulations-2026',
     '/blog/warehouse-sprinkler-system-upgrade',

@@ -66,6 +66,36 @@ const projectsData = {
             'Non-disruptive installation procedures',
             'Comprehensive testing and commissioning protocols'
         ]
+    },
+    'digha-hotel': {
+        typeTag: 'Hospitality Fire Safety',
+        locationTag: 'Digha, West Bengal',
+        heading: 'Hotel Project — Digha',
+        title: 'Hotel Fire Safety Installation',
+        subtitle: 'A dedicated fire hydrant and safety system installation for a hospitality property in Digha, designed to protect guests, staff, and the building without disrupting day-to-day operations.',
+        client: 'Hotel, Digha',
+        location: 'Digha, West Bengal',
+        status: 'Completed',
+        images: [
+            '/images/projects/digha-hotel/digha-01.jpeg',
+            '/images/projects/digha-hotel/digha-02.jpeg',
+            '/images/projects/digha-hotel/digha-03.jpeg'
+        ],
+        summary1: "Hospitality properties present unique fire safety challenges — guest-occupied floors, multiple exit routes, and public areas that must remain functional throughout installation. This project focused on delivering a reliable, code-compliant fire hydrant system across the property while keeping disruption to guests and operations to a minimum.",
+        summary2: "Our team planned hydrant point placement across all floors and common areas, laid out the piping network, and set up a dependable pump arrangement to ensure consistent water pressure is available in the event of a fire, backed by routine testing and handover documentation.",
+        features: [
+            'ISI-marked hydrant valves across all floors',
+            'Underground and riser piping network',
+            'Fire pump set with standby backup',
+            'Strategically placed hose reels and hydrant points',
+            'Coordination with property staff for minimal guest disruption'
+        ],
+        compliance: [
+            'Installation aligned with applicable fire safety norms',
+            'Hydraulic pressure testing of installed circuits',
+            'Documentation prepared for NOC coordination',
+            'Handover with maintenance guidance for property staff'
+        ]
     }
 };
 

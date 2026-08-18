@@ -86,7 +86,7 @@ function Home() {
 
                     <aside className="hx-hero-side" data-aos="fade-left">
                         <div className="hx-frame">
-                            <img src="/images/ui/hero-hydrant.png" alt="Red cast-iron fire hydrant with hose-outlet caps and chains" />
+                            <img src="/images/ui/hero-pump-room.jpg" alt="Fire hydrant pump room with red-coated piping and pressure gauges" />
                             <span className="hx-frame-badge">Trusted across West Bengal</span>
                         </div>
                     </aside>

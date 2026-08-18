@@ -356,15 +356,8 @@ h1, h2, h3, .hero-title, .page-title, .catalog-title, .detail-title, .fs-title, 
 .hx-frame img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  padding: 28px;
+  object-fit: cover;
   display: block;
-  animation: hx-float 5s ease-in-out infinite;
-  will-change: transform;
-}
-@keyframes hx-float {
-  0%, 100% { transform: translateY(0) rotate(0deg); }
-  50% { transform: translateY(-16px) rotate(-1.4deg); }
 }
 .hx-frame-badge {
   position: absolute;

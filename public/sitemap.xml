@@ -6,7 +6,7 @@
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <image:image><image:loc>https://www.pmenterprises.xyz/images/ui/hero-hydrant.png</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/ui/hero-pump-room.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.pmenterprises.xyz/images/ui/pmenterpriseslogo.png</image:loc></image:image>
   </url>
   <url>
@@ -48,6 +48,7 @@
     <priority>0.8</priority>
     <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/proj1_img1.jpeg</image:loc></image:image>
     <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/DSC_0788.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/digha-hotel/digha-01.jpeg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/about</loc>
@@ -118,6 +119,17 @@
     <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154645.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154648.jpg</image:loc></image:image>
     <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/medicine-factory/20260402_154723.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.pmenterprises.xyz/projects/digha-hotel</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/digha-hotel/digha-01.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/digha-hotel/digha-02.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/digha-hotel/digha-03.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/digha-hotel/digha-04.jpeg</image:loc></image:image>
+    <image:image><image:loc>https://www.pmenterprises.xyz/images/projects/digha-hotel/digha-05.jpeg</image:loc></image:image>
   </url>
   <url>
     <loc>https://www.pmenterprises.xyz/blog/essential-fire-extinguisher-types</loc>
