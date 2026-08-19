@@ -1,7 +1,26 @@
 import { Wrench, Shield, Droplets, Map, CheckCircle2, Bell, Flame, Activity } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
-import { breadcrumbSchema } from '../utils/schema';
+import { breadcrumbSchema, faqSchema } from '../utils/schema';
+
+const SERVICE_FAQS = [
+    {
+        q: 'How much does fire hydrant AMC (annual maintenance) cost?',
+        a: 'AMC pricing depends on the number of hydrant points, pumps, and alarm/detection devices on site, along with visit frequency. We provide a free site assessment and a fixed AMC quote — call +91 92396 89075 or WhatsApp us for pricing specific to your facility.',
+    },
+    {
+        q: 'How quickly can PM Enterprises respond to an emergency?',
+        a: 'We offer 24/7 emergency support across West Bengal. For active faults on hydrant systems, pumps, or alarm panels under an active AMC contract, our team prioritizes same-day response wherever possible.',
+    },
+    {
+        q: 'Do you provide fire safety compliance certificates for NOC applications?',
+        a: 'Yes. Our compliance audits document your fire protection system against IS/ISI and local fire department requirements, and we provide the inspection reports needed to support your Fire NOC application.',
+    },
+    {
+        q: 'Can you design a fire protection system for a new building or factory?',
+        a: 'Yes — our engineering team designs complete fire protection networks (hydrants, pumps, alarms, sprinklers) for new industrial, commercial and residential developments, sized and routed for your building layout and occupancy.',
+    },
+];
 
 function Services() {
     const servicesList = [
@@ -46,7 +65,7 @@ function Services() {
         <div className="page-container services-page">
             <SEO
                 title="Fire Safety Services — Installation, AMC & Audits"
-                description="Fire safety services across West Bengal: fire alarm & detection systems, hydrant installation, fire extinguisher supply, equipment maintenance (AMC) and safety compliance audits by PM Enterprises."
+                description="Fire safety services across West Bengal: alarm & detection systems, hydrant installation, extinguisher supply, AMC and compliance audits."
                 keywords="fire protection services, fire hydrant installation, fire alarm systems, safety compliance audits, PM Enterprises services"
                 url="/services"
                 schema={[
@@ -69,6 +88,7 @@ function Services() {
                             },
                         })),
                     },
+                    faqSchema(SERVICE_FAQS),
                 ]}
             />
             <div className="page-header">
@@ -105,6 +125,27 @@ function Services() {
                         <Link to="/contact" className="btn btn-primary btn-full mt-20" style={{ display: 'inline-block', textAlign: 'center' }}>REQUEST SERVICE</Link>
                     </div>
                 </div>
+            </div>
+
+            <div className="services-faq" style={{ maxWidth: '900px', margin: '60px auto 0' }}>
+                <h2 className="specs-title" style={{ fontSize: '1.6rem', marginBottom: '24px', textAlign: 'center' }}>
+                    Frequently Asked Questions
+                </h2>
+                {SERVICE_FAQS.map((f, i) => (
+                    <div
+                        key={i}
+                        style={{
+                            background: 'var(--surface)',
+                            border: '1px solid var(--border)',
+                            borderRadius: '8px',
+                            padding: '20px 24px',
+                            marginBottom: '14px',
+                        }}
+                    >
+                        <h3 style={{ fontSize: '1rem', marginBottom: '8px', color: 'var(--text)' }}>{f.q}</h3>
+                        <p style={{ color: 'var(--text-2)', lineHeight: '1.7', margin: 0 }}>{f.a}</p>
+                    </div>
+                ))}
             </div>
         </div>
     );

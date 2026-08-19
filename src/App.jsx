@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import FloatingContact from './components/FloatingContact';
 import { ThemeProvider } from './context/ThemeContext';
 
 const Home = lazy(() => import('./pages/Home'));
@@ -52,6 +53,7 @@ function App() {
           </Suspense>
         </main>
         <Footer />
+        <FloatingContact />
       </div>
       </BrowserRouter>
     </ThemeProvider>

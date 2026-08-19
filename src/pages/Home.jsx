@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Shield, Settings, Bell, ArrowRight, ArrowUpRight, MapPin } from 'lucide-react';
+import { Shield, Settings, Bell, ArrowRight, ArrowUpRight, MapPin, Phone } from 'lucide-react';
 import FireSafetySection from '../components/FireSafetySection';
 import SEO from '../components/SEO';
 import { faqSchema } from '../utils/schema';
@@ -52,7 +52,7 @@ function Home() {
         <div className="home-page">
             <SEO
                 title="Fire Safety & Fire Protection Company in West Bengal"
-                description="PM Enterprises is a West Bengal fire safety company supplying & installing fire hydrants, extinguishers, alarms and sprinkler systems — with maintenance, AMC and compliance audits. Free site assessment, 24/7 support."
+                description="PM Enterprises supplies & installs fire hydrants, extinguishers, alarms & sprinklers across West Bengal — AMC, compliance audits, 24/7 support."
                 keywords="fire safety, fire safety company West Bengal, fire protection services, fire hydrant installation, fire extinguishers, fire alarm systems, sprinkler systems, fire safety Nadia Kolkata, PM Enterprises"
                 url="/"
                 schema={faqSchema(FAQS)}
@@ -71,7 +71,10 @@ function Home() {
                             and performance. All over West Bengal services are provided.
                         </p>
                         <div className="hx-actions">
-                            <Link to="/products" className="btn btn-primary btn-large">View Products <ArrowRight size={18} /></Link>
+                            <a href="tel:+919239689075" className="btn btn-primary btn-large">
+                                <Phone size={18} /> Call Now
+                            </a>
+                            <Link to="/products" className="btn btn-ghost btn-large">View Products <ArrowRight size={18} /></Link>
                             <Link to="/contact" className="btn btn-ghost btn-large">Get a Quote</Link>
                             <a
                                 href="https://maps.app.goo.gl/B7NpTccdf1RhgRoYA?g_st=aw"
